@@ -7,7 +7,6 @@ project:
 
 website:
   title: "lukas westphal"
-  background: dark
   navbar:
     left:
       - href: index.qmd

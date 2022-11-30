@@ -1,6 +1,5 @@
 ---
 title: "lukas westphal"
-subtitle: "Tools"
 ---
 
 Working with a new computer can be great fun. However, I repeatedly forget to my favorite programs and settings that I frequently use. 
@@ -41,4 +40,462 @@ Remove
 
 ### View
 
-Choose column view for every directory
+- Choose column view for every directory
+
+- Show Status Bar
+
+- Show Path Bar
+
+- Show Tab Bar
+
+
+
+## Trackpad / Mouse
+
+- Increase to max speed -1
+- Enable click on tap
+
+## Accessibility
+-> Pointer Control -> Trackpad Options -> Use trackpad for dragging -> three finger drag
+
+## Dock
+
+- Remove everything possible
+
+- Dont show recent apps/docs
+
+- Shrink size to minimum
+
+- Auto hide and show
+
+
+# Basics
+
+##  Homebrew 
+
+All my apps will be installed using Homebrew, the best package manager for Mac. 
+Install it using the terminal and enter the following line: 
+```{r}
+#| echo: true
+#| code-fold: true
+#| eval: false
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+From now, go to [brew.sh](https://brew.sh/) to retrieve the commands to install your favorite apps. 
+A list of apps can be saved in a txt file and installed from there. 
+
+```{r}
+#| echo: true
+#| code-fold: true
+#| eval: false
+
+nano appstoinstall.txt
+<paste apps>
+
+xargs brew install < apps.txt
+```
+
+## [Iterm2](https://iterm2.com/documentation.html)
+Iterm2 as the nicest terminal for mac. dont use it very much but way nicer than the native terminal app
+VS Code. In your mac terminal, run: 
+```{r}
+#| echo: true
+#| code-fold: true
+#| eval: false
+
+brew install --cask iterm2
+```
+
+### Settings
+
+Appearance
+
+- Theme: Minimal
+
+Profiles
+
+Default
+
+- General -> Working Directory -> Reuse previous session's directory
+- Colors -> Basic Colors -> Foreground -> Lime Green
+- Text -> Font -> Anonymous Pro
+        You can download this font [here](https://www.marksimonson.com/fonts/view/anonymous-pro). (Unzip, double click on the anonymous pro.rft, drag and drop all other with same file extension there. 
+        I use this font in VS Code as well)
+- Text -> Font Size -> 24
+
+- Keys -> Key Mappings -> Presets -> Natural Text Editing (This allows me to use the keyboard shortcuts I know and love inside of iTerm2)
+
+I am also using bash in iterm, check [this source](https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c#firefox) for some guidance and to see that I only copied stuff.
+
+# Best Apps For Productivity
+
+## [Rectangle](https://rectangleapp.com/)
+This allows you to create shortcuts to move windows and change sizes. I use it all the time.
+I used Magnet before, however, this is an open source and free version and is therefore preferred.
+
+Here is the settings I use: 
+![](imgs/settings_rectangle.png)
+
+## [Alt-Tab](https://alt-tab-macos.netlify.app/)
+Use alttab to change windows in a Windows manner with alttab. I use option tab to change windows of the same app and the Windows layout.
+
+## [Alfred](https://www.alfredapp.com/)
+This app replaces spotlight and is 100000 times better. It finds all your documents and folders and apps much faster. It also calculates, directly performs searches in youtube, maps, whatever. You can also easily setup a currency exchange shortcut under websearch. *(maybe explain further)*
+
+## [DeepL](https://www.deepl.com/en/translator)
+The best translator, comes with a nice app that allows you to create a shortcut to translate a marked text, documents, and you can even screenshot parts of the screen to translate with a shortcut. 
+
+## [Clipy](https://clipy-app.com/)
+
+This app allows you to save your clipboard history. 
+Important: Uncheck "Display Items in Menu Items". The shortcut I use is control+cmd+v.
+
+## [MonitorControl](https://github.com/MonitorControl/MonitorControl#readme)
+Allows to control brightness on every display you use from the menu bar. (stopped using it)
+
+
+## VS Code
+
+**VS Code Settings (json)**
+```{r}
+#| echo: true
+#| code-fold: true
+#| eval: false
+
+{
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/*.code-search": true
+    },
+    "search.useIgnoreFiles": false,
+    "explorer.openEditors.visible": 0,
+    "editor.linkedEditing": true,
+    "editor.snippetSuggestions": "top",
+    "emmet.showAbbreviationSuggestions": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "workbench.colorTheme": "Just Black",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 16,
+    "files.autoSave": "off",
+    "editor.fontFamily": "Anonymous Pro",
+    "markdown.preview.fontSize": 24,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": true,
+    "editor.minimap.enabled": false,
+
+    "quarto.mathjax.theme": "dark",
+    "quarto.assist.updateMode": "live",
+    "r.bracketedPaste": true,
+    "r.lsp.debug": true,
+    "r.plot.defaults.colorTheme": "vscode",
+    "r.rpath.mac": "/usr/local/Cellar/r/4.2.2",
+
+    "git.autofetch": true,
+    "editor.lineHeight": 0,
+    "editor.fontSize": 16,
+    "vsicons.dontShowNewVersionMessage": true,
+    "extensions.ignoreRecommendations": true,
+    "files.associations": {
+      "*.rmd": "markdown"
+    },
+    "r.linting.enable": true,
+    "r.linting.lineLength": true,
+    "r.editor.bracesOnNewLine": true,
+
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "eslint.enable": true,
+    "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.suggestSelection": "first",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "Vue.volar"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorCustomizations": {},
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "comment.block"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#ff1493"
+          }
+        },
+        {
+          "scope": [
+            "keyword.operator.logical",
+            "keyword.operator.arithmetic",
+            "keyword.operator.assignment",
+            "keyword.operator.bitwise"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": [
+            "comment",
+            "comment.block"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#ff1493"
+          }
+        },
+        {
+          "scope": [
+            "keyword.operator.logical",
+            "keyword.operator.arithmetic",
+            "keyword.operator.assignment",
+            "keyword.operator.bitwise"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": [
+            "comment",
+            "comment.block"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#ff1493"
+          }
+        },
+        {
+          "scope": [
+            "keyword.operator.logical",
+            "keyword.operator.arithmetic",
+            "keyword.operator.assignment",
+            "keyword.operator.bitwise"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": [
+            "comment",
+            "comment.block"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#ff1493"
+          }
+        },
+        {
+          "scope": [
+            "keyword.operator.logical",
+            "keyword.operator.arithmetic",
+            "keyword.operator.assignment",
+            "keyword.operator.bitwise"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        },
+        {
+          "name": "envKeys",
+          "scope": "string.quoted.double.env,source.env,constant.numeric.env",
+          "settings": {
+            "foreground": "#19354900"
+          }
+        }
+      ]
+    },
+  }
+```
+
+**VS Code Shortcuts (json)**
+
+```{r}
+#| echo: true
+#| code-fold: true
+#| eval: false
+
+[
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "-workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.openEditorAtIndex2"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "-workbench.action.openEditorAtIndex2"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "-workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "cmd+4",
+    "command": "workbench.action.openEditorAtIndex4"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "-workbench.action.openEditorAtIndex4"
+  },
+  {
+    "key": "cmd+5",
+    "command": "workbench.action.openEditorAtIndex5"
+  },
+  {
+    "key": "ctrl+5",
+    "command": "-workbench.action.openEditorAtIndex5"
+  },
+  {
+    "key": "cmd+6",
+    "command": "workbench.action.openEditorAtIndex6"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "-workbench.action.openEditorAtIndex6"
+  },
+  {
+    "key": "cmd+7",
+    "command": "workbench.action.openEditorAtIndex7"
+  },
+  {
+    "key": "ctrl+7",
+    "command": "-workbench.action.openEditorAtIndex7"
+  },
+  {
+    "key": "cmd+8",
+    "command": "workbench.action.openEditorAtIndex8"
+  },
+  {
+    "key": "ctrl+8",
+    "command": "-workbench.action.openEditorAtIndex8"
+  },
+  {
+    "key": "cmd+9",
+    "command": "workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "ctrl+9",
+    "command": "-workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "cmd+1",
+    "command": "-workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "cmd+3",
+    "command": "-workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "workbench.action.focusSixthEditorGroup"
+  },
+  {
+    "key": "cmd+6",
+    "command": "-workbench.action.focusSixthEditorGroup"
+  },
+  {
+    "key": "ctrl+7",
+    "command": "workbench.action.focusSeventhEditorGroup"
+  },
+  {
+    "key": "cmd+7",
+    "command": "-workbench.action.focusSeventhEditorGroup"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "cmd+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "workbench.action.focusFourthEditorGroup"
+  },
+  {
+    "key": "cmd+4",
+    "command": "-workbench.action.focusFourthEditorGroup"
+  },
+  {
+    "key": "ctrl+5",
+    "command": "workbench.action.focusFifthEditorGroup"
+  },
+  {
+    "key": "cmd+5",
+    "command": "-workbench.action.focusFifthEditorGroup"
+  },
+  {
+    "key": "ctrl+8",
+    "command": "workbench.action.focusEighthEditorGroup"
+  },
+  {
+    "key": "cmd+8",
+    "command": "-workbench.action.focusEighthEditorGroup"
+  }
+]
+```
+
+# Apps I stopped using: 
+- Maccy
+- Itsycal
+- Magnet
+- Get Plain Text
+- CheatSheet
+- Stretchly
+- Time Out
