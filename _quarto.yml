@@ -13,7 +13,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - setup.qmd
+      - setup_intro.qmd
   sidebar:
     style: docked
     search: true
