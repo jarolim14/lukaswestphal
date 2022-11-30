@@ -13,7 +13,9 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - setup_intro.qmd
+      - href: setup_intro.qmd
+        text: Setup
+
   sidebar:
     style: docked
     search: true
