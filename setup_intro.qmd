@@ -1,0 +1,44 @@
+---
+title: "lukas westphal"
+subtitle: "Tools"
+---
+
+Working with a new computer can be great fun. However, I repeatedly forget to my favorite programs and settings that I frequently use. 
+Therefore, I built this little thing to help my future self out and maybe even someone else.
+I will start with most important settings on a new MacBook.
+
+# OS Settings
+## Finder
+### Settings
+
+#### General
+
+[] Uncheck everything
+
+- choose most frequently used directory  for new windows
+
+#### Sidebar
+
+Remove
+
+- Recents
+
+- AirDrop
+
+- On My Mac
+
+- Recent tags
+
+#### Advanced
+
+[x] Show all filename extension
+
+[ ] Show warning before changing an extension
+
+[x] Keep folders on top in windows and on Desktop
+
+- When performing a search, search current folder
+
+### View
+
+Choose column view for every directory

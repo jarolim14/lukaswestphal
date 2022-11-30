@@ -4,5 +4,11 @@
   },
   "about.qmd": {
     "about.html": "997637c5"
+  },
+  "setup.qmd": {
+    "setup.html": "dfa84090"
+  },
+  "setup_intro.qmd": {
+    "setup_intro.html": "5da52aaf"
   }
 }

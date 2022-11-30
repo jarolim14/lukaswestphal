@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "lukas westphal",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "setup_intro.html",
+    "href": "setup_intro.html",
+    "title": "lukas westphal",
+    "section": "",
+    "text": "Working with a new computer can be great fun. However, I repeatedly forget to my favorite programs and settings that I frequently use. Therefore, I built this little thing to help my future self out and maybe even someone else. I will start with most important settings on a new MacBook."
+  },
+  {
+    "objectID": "setup_intro.html#finder",
+    "href": "setup_intro.html#finder",
+    "title": "lukas westphal",
+    "section": "Finder",
+    "text": "Finder\n\nSettings\n\nGeneral\n[] Uncheck everything\n\nchoose most frequently used directory for new windows\n\n\n\nSidebar\nRemove\n\nRecents\nAirDrop\nOn My Mac\nRecent tags\n\n\n\nAdvanced\n[x] Show all filename extension\n[ ] Show warning before changing an extension\n[x] Keep folders on top in windows and on Desktop\n\nWhen performing a search, search current folder\n\n\n\n\nView\nChoose column view for every directory"
   }
 ]

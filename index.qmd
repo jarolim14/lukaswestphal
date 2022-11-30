@@ -2,6 +2,4 @@
 title: "lukas westphal"
 ---
 
-This will be my personal Github website.
-
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
