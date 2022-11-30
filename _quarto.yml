@@ -1,14 +1,22 @@
 project:
+  render:
+    - "*.qmd"
+    - "!ignored.md"
   type: website
   output-dir: docs
 
 website:
   title: "lukas westphal"
+  background: dark
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - setup.qmd
+  sidebar:
+    style: docked
+    search: true
 
 format:
   html:
