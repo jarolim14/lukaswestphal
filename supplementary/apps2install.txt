@@ -27,4 +27,5 @@ timeout
 visual-studio-code
 vlc
 whatsapp
+zoom
 zotero

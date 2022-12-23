@@ -13,7 +13,7 @@ website:
         text: Home
       - about.qmd
       - href: setup_intro.qmd
-        text: Setup
+        text: MacBook Setup
 
   sidebar:
     style: docked
@@ -24,6 +24,3 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-
