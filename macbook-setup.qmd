@@ -143,7 +143,7 @@ I used Magnet before, however, this is an open source and free version and is th
 
 Save below and import it the .json file from the setting panel in the Rectangle app.
 
-[Configuration File](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary/RectangleConfig.json)
+[Configuration File](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/RectangleConfig.json)
 
 
 ## [Alt-Tab](https://alt-tab-macos.netlify.app/)
@@ -189,7 +189,7 @@ My favorite reference manager! (Also [jabref](https://www.jabref.org/) is pretty
 
 To create a first-sight categorization of your articles, you can assign them an emoji as a tag and then assign a color to this emoji (right-click on the tag in bottom right corner). Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below. 
 
-![Zotero-Emojies](/supplementary/zotero_emojis.png)
+![Zotero-Emojies](/supplementary-files/zotero_emojis.png)
 
 ### [Add-Ons:](https://www.zotero.org/support/plugins)
 
@@ -205,9 +205,9 @@ To create a first-sight categorization of your articles, you can assign them an 
 My favorive code editor is vscode. It is very leightweight and, most importantly, you can use it for every programming language and even use Jupyter Notebooks or Quarto to create living documents. 
 To sync your extensions and settings accross devices, I recommend turning on the sync settings option.
 
-These are my [settings](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary/VSCodeSettings.json)
+These are my [settings](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/VSCodeSettings.json)
 
-These are my [shortcuts](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary/VSCodeShortcuts.json)
+These are my [shortcuts](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/VSCodeShortcuts.json)
 
 My favorive extensions are: 
 ```{r}
@@ -256,6 +256,6 @@ code --list-extensions
 - Stretchly
 - Time Out
 
-recommended apps in a .txt [file](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary/apps2install.txt)
+recommended apps in a .txt [file](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/apps2install.txt)
 
 Finally, big shout out CJ from coding garden who's [Youtube Video](https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c) on how to setup a Mac is amazing! 

@@ -145,5 +145,117 @@
     "title": "MacBook Setup",
     "section": "Zotero",
     "text": "Zotero\nMy favorite reference manager! (Also jabref is pretty good.) I strongly recommend using a free and open source reference manager to keep your libraries accessible regardless of your subscriptions. Try not to use Mendeley or any other from big publishers.\nTo create a first-sight categorization of your articles, you can assign them an emoji as a tag and then assign a color to this emoji (right-click on the tag in bottom right corner). Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below.\n\n\n\nZotero-Emojies\n\n\n\nAdd-Ons:\n\nBetter BibTex\nDOI Manager\nNight for Zotero\nZotfile (set-up file storage on a cloud server, instructions here)\nZotilo"
+  },
+  {
+    "objectID": "macbook-setup.html",
+    "href": "macbook-setup.html",
+    "title": "MacBook Setup",
+    "section": "",
+    "text": "Working with a new computer can be great fun. However, I repeatedly forget to my favorite programs and settings that I frequently use. Therefore, I built this little thing to help my future self out and maybe even someone else. I will start with most important settings on a new MacBook."
+  },
+  {
+    "objectID": "macbook-setup.html#finder",
+    "href": "macbook-setup.html#finder",
+    "title": "MacBook Setup",
+    "section": "Finder",
+    "text": "Finder\n\nSettings\n\nGeneral\n[] Uncheck everything\n\nchoose most frequently used directory for new windows\n\n\n\nSidebar\nRemove\n\nRecents\nAirDrop\nOn My Mac\nRecent tags\n\n\n\nAdvanced\n[x] Show all filename extension\n[ ] Show warning before changing an extension\n[x] Keep folders on top in windows and on Desktop\n\nWhen performing a search, search current folder\n\n\n\n\nView\n\nChoose column view for every directory\nShow Status Bar\nShow Path Bar\nShow Tab Bar"
+  },
+  {
+    "objectID": "macbook-setup.html#trackpad-mouse",
+    "href": "macbook-setup.html#trackpad-mouse",
+    "title": "MacBook Setup",
+    "section": "Trackpad / Mouse",
+    "text": "Trackpad / Mouse\n\nIncrease to max speed -1\nEnable click on tap"
+  },
+  {
+    "objectID": "macbook-setup.html#accessibility",
+    "href": "macbook-setup.html#accessibility",
+    "title": "MacBook Setup",
+    "section": "Accessibility",
+    "text": "Accessibility\n-> Pointer Control -> Trackpad Options -> Use trackpad for dragging -> three finger drag"
+  },
+  {
+    "objectID": "macbook-setup.html#dock",
+    "href": "macbook-setup.html#dock",
+    "title": "MacBook Setup",
+    "section": "Dock",
+    "text": "Dock\nI don’t use the Dock at all. It takes up screen space, and I can use Alfred to launch apps and AltTab to switch between apps (all using the keyboard). I make the dock as small as possible and auto hide it.\n\nRemove everything possible\nDon’t show recent apps/docs\nShrink size to minimum\nAuto hide and show\nMove to the right"
+  },
+  {
+    "objectID": "macbook-setup.html#homebrew",
+    "href": "macbook-setup.html#homebrew",
+    "title": "MacBook Setup",
+    "section": "Homebrew",
+    "text": "Homebrew\nAll my apps will be installed using Homebrew, the best package manager for Mac. Before installing it, it can be a good idea to remove the preinstalled apps that you do not need and where removal is possible. Install it using the terminal and enter the following line:\n\n\nCode\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n\nFrom now on, go to brew.sh to retrieve the commands to install your favorite apps. A list of apps can be saved in a txt file and installed from there.\n\n\nCode\nnano appstoinstall.txt\n<paste apps>\n\nxargs brew install < apps.txt"
+  },
+  {
+    "objectID": "macbook-setup.html#iterm2",
+    "href": "macbook-setup.html#iterm2",
+    "title": "MacBook Setup",
+    "section": "Iterm2",
+    "text": "Iterm2\nIterm2 is the nicest terminal for Mac. I don’t use it very much but way nicer than the native terminal app\nIn your mac terminal, run:\n\n\nCode\nbrew install --cask iterm2\n\n\n\nSettings\nAppearance\n\nTheme: Minimal\n\nProfiles\nDefault\n\nGeneral -> Working Directory -> Reuse previous session’s directory\nColors -> Basic Colors -> Foreground -> Lime Green\nText -> Font -> Anonymous Pro You can download this font here. (Unzip, double click on the anonymous pro.rft, drag and drop all other with same file extension there. I use this font in VS Code as well)\nText -> Font Size -> 24\nKeys -> Key Mappings -> Presets -> Natural Text Editing (This allows me to use the keyboard shortcuts I know and love inside of iTerm2)\n\nI am also using bash in iterm, check this source for some guidance and to see that I only copied stuff."
+  },
+  {
+    "objectID": "macbook-setup.html#rectangle",
+    "href": "macbook-setup.html#rectangle",
+    "title": "MacBook Setup",
+    "section": "Rectangle",
+    "text": "Rectangle\nThis allows you to create shortcuts to move windows and change sizes. I use it all the time. I used Magnet before, however, this is an open source and free version and is therefore preferred.\nSave below and import it the .json file from the setting panel in the Rectangle app.\nConfiguration File"
+  },
+  {
+    "objectID": "macbook-setup.html#alt-tab",
+    "href": "macbook-setup.html#alt-tab",
+    "title": "MacBook Setup",
+    "section": "Alt-Tab",
+    "text": "Alt-Tab\nUse alttab to change windows in a Windows manner with alttab. I use option tab to change windows of the same app and the Windows layout."
+  },
+  {
+    "objectID": "macbook-setup.html#alfred",
+    "href": "macbook-setup.html#alfred",
+    "title": "MacBook Setup",
+    "section": "Alfred",
+    "text": "Alfred\nThis app replaces spotlight and is 100000 times better (change shortcut to cmd+spacebar). It finds all your documents, folders, and apps much faster. It also calculates, directly performs searches in youtube, maps, whatever. You can also easily setup a currency exchange shortcut under websearch. (maybe explain further)"
+  },
+  {
+    "objectID": "macbook-setup.html#deepl",
+    "href": "macbook-setup.html#deepl",
+    "title": "MacBook Setup",
+    "section": "DeepL",
+    "text": "DeepL\nThe best translator, comes with a nice app that allows you to create a shortcut to translate a marked text, documents, and you can even screenshot parts of the screen to translate with a shortcut."
+  },
+  {
+    "objectID": "macbook-setup.html#clipy",
+    "href": "macbook-setup.html#clipy",
+    "title": "MacBook Setup",
+    "section": "Clipy",
+    "text": "Clipy\nThis app allows you to save your clipboard history. Important: Uncheck “Display Items in Menu Items”. The shortcut I use is control+cmd+v."
+  },
+  {
+    "objectID": "macbook-setup.html#monitorcontrol",
+    "href": "macbook-setup.html#monitorcontrol",
+    "title": "MacBook Setup",
+    "section": "MonitorControl",
+    "text": "MonitorControl\nAllows to control brightness on every display you use from the menu bar. (stopped using it)"
+  },
+  {
+    "objectID": "macbook-setup.html#firefox",
+    "href": "macbook-setup.html#firefox",
+    "title": "MacBook Setup",
+    "section": "Firefox",
+    "text": "Firefox\nThe only popular browser that does not run on chromium 🥳. I like to suppport the Mozilla foundation and have a great browsing experience using it. These add-ons are very focused on privacy protection.\n\nAdd-ons:\n\nPrivacy Badger\nCookue AutoDelete\nuBlock Origin\nNordvpn\nTWP / Translate Web pages / always translate Danish, never - German and English\nConsent-o-matic\nDark reader\nOneTab\nLanguageTool\nTabliss (to have an all black Home)\nZotero"
+  },
+  {
+    "objectID": "macbook-setup.html#zotero",
+    "href": "macbook-setup.html#zotero",
+    "title": "MacBook Setup",
+    "section": "Zotero",
+    "text": "Zotero\nMy favorite reference manager! (Also jabref is pretty good.) I strongly recommend using a free and open source reference manager to keep your libraries accessible regardless of your subscriptions. Try not to use Mendeley or any other from big publishers.\nTo create a first-sight categorization of your articles, you can assign them an emoji as a tag and then assign a color to this emoji (right-click on the tag in bottom right corner). Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below.\n\n\n\nZotero-Emojies\n\n\n\nAdd-Ons:\n\nBetter BibTex\nDOI Manager\nNight for Zotero\nZotfile (set-up file storage on a cloud server, instructions here)\nZotilo"
+  },
+  {
+    "objectID": "macbook-setup.html#vs-code",
+    "href": "macbook-setup.html#vs-code",
+    "title": "MacBook Setup",
+    "section": "VS Code",
+    "text": "VS Code\nMy favorive code editor is vscode. It is very leightweight and, most importantly, you can use it for every programming language and even use Jupyter Notebooks or Quarto to create living documents. To sync your extensions and settings accross devices, I recommend turning on the sync settings option.\nThese are my settings\nThese are my shortcuts\nMy favorive extensions are:\n\n\nCode\n# to get a list of all extensions, run \n\ncode --list-extensions\n\n# in the terminal\n\n\n\npath-intellisense\ngitlens\nprettier-vscode\nvscode-reveal\nfontsize-shortcuts\npath-autocomplete\nms-python.isort\nms-python.python\nms-python.vscode-pylance\nms-toolsai.jupyter\nms-toolsai.jupyter-keymap\nms-toolsai.jupyter-renderers\nms-toolsai.vscode-jupyter-cell-tags\nms-toolsai.vscode-jupyter-slideshow\njust-black\nquarto\nRDebugger.r-debugger\nREditorSupport.r\ncode-spell-checker\nerrorlens\nvscode-icons\ngrammarly"
   }
 ]
