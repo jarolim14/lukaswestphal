@@ -140,7 +140,7 @@ I used Magnet before, however, this is an open source and free version and is th
 
 Save below and import it the .json file from the setting panel in the Rectangle app.
 
-[Configuration File](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/settings-files/RectangleConfig.json)
+[Configuration File](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary/RectangleConfig.json)
 
 
 ## [Alt-Tab](https://alt-tab-macos.netlify.app/)
@@ -162,6 +162,11 @@ Allows to control brightness on every display you use from the menu bar. (stoppe
 
 
 ## VS Code
+My favorive code editor is vscode. It is very leightweight and, most importantly, you can use it for every programming language and even use jupyter notebooks or Quarto to create living documents.
+
+These are my [settings]()
+
+
 
 **VS Code Settings (json)**
 ```{r}
@@ -505,5 +510,4 @@ Allows to control brightness on every display you use from the menu bar. (stoppe
 - Stretchly
 - Time Out
 
-
-A 
+recommended apps in .txt [file](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary/apps2install.txt)
