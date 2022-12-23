@@ -117,5 +117,12 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "lukas westphal",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
