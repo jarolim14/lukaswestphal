@@ -17,7 +17,7 @@
   "workbench.iconTheme": "vscode-icons",
   "editor.fontLigatures": true,
   "terminal.external.osxExec": "Terminal.app",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 18,
   "editor.fontFamily": "Anonymous Pro",
   "files.autoSave": "off",
   "markdown.preview.fontSize": 24,
@@ -27,14 +27,12 @@
 
   "git.autofetch": true,
   "editor.lineHeight": 0,
-  "editor.fontSize": 14,
+  "editor.fontSize": 18,
   "vsicons.dontShowNewVersionMessage": true,
   "extensions.ignoreRecommendations": true,
-
-  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
   "security.workspace.trust.untrustedFiles": "open",
   "fontshortcuts.defaultFontSize": 16,
-  "fontshortcuts.defaultTerminalFontSize": 16,
+  "fontshortcuts.defaultTerminalFontSize": 12,
 
   "quarto.mathjax.theme": "dark",
   "quarto.assist.updateMode": "live",
@@ -193,5 +191,7 @@
   "errorLens.enabled": true,
   "errorLens.enabledDiagnosticLevels": ["warning", "error"],
   "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "fontshortcuts.step": 2
 }

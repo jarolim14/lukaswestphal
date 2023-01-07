@@ -109,20 +109,20 @@
     "href": "macbook-setup.html#vs-code",
     "title": "MacBook Setup",
     "section": "VS Code",
-    "text": "VS Code\nMy favorive code editor is vscode. It is very leightweight and, most importantly, you can use it for every programming language and even use Jupyter Notebooks or Quarto to create living documents. To sync your extensions and settings accross devices, I recommend turning on the sync settings option.\nThese are my settings\nThese are my shortcuts\nMy favorive extensions are:\n\n\nCode\n# to get a list of all extensions, run \n\ncode --list-extensions\n\n# in the terminal\n\n\n\npath-intellisense\ngitlens\nprettier-vscode\nvscode-reveal\nfontsize-shortcuts\npath-autocomplete\nms-python.isort\nms-python.python\nms-python.vscode-pylance\nms-toolsai.jupyter\nms-toolsai.jupyter-keymap\nms-toolsai.jupyter-renderers\nms-toolsai.vscode-jupyter-cell-tags\nms-toolsai.vscode-jupyter-slideshow\njust-black\nquarto\nRDebugger.r-debugger\nREditorSupport.r\ncode-spell-checker\nerrorlens\nvscode-icons\ngrammarly"
+    "text": "VS Code\nMy favorive code editor is vscode. It is very leightweight and, most importantly, you can use it for every programming language and even use Jupyter Notebooks or Quarto to create living documents. To sync your extensions and settings accross devices, I recommend turning on the sync settings option.\nThese are my settings\nThese are my shortcuts\nMy favorive extensions are:\n\n\nCode\n# to get a list of all extensions, run \n\ncode --list-extensions\n\n# in the terminal\n\n\n\npath-intellisense\ngitlens\nprettier-vscode\nvscode-reveal\nfontsize-shortcuts\npath-autocomplete\njust-black\nquarto\nRDebugger.r-debugger\nREditorSupport.r\ncode-spell-checker\nerrorlens\nvscode-icons\ngrammarly"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n\nCode\nco <- c(\"check\")"
+    "text": "I am a PhD Student in Copenhagen and just wanted to build a website to build a website. I picture it to be a repository that stores all the handy little apps, workflows, tricks and tricks that I use in my daily work. It might also turn into something where I write about things, my interests mainly lie within psychology, data science, and politics."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "lukas westphal",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I am a PhD Student in Copenhagen and just wanted to build a website to build a website. I picture it to be a repository that stores all the handy little apps, workflows, tricks and tricks that I use in my daily work. It might also turn into something where I write about things, my interests mainly lie within psychology, data science, and politics."
   }
 ]
