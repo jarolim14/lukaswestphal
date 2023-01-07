@@ -1,0 +1,264 @@
+---
+title: "MacBook Setup"
+---
+
+Working with a new computer can be great fun. However, I repeatedly forget to my favorite programs and settings that I frequently use. 
+Therefore, I built this little thing to help my future self out and maybe even someone else.
+I will start with most important settings on a new MacBook.
+
+# OS Settings
+## Finder
+### Settings
+
+#### General
+
+[] Uncheck everything
+
+- choose most frequently used directory  for new windows
+
+#### Sidebar
+
+Remove
+
+- Recents
+
+- AirDrop
+
+- On My Mac
+
+- Recent tags
+
+#### Advanced
+
+[x] Show all filename extension
+
+[ ] Show warning before changing an extension
+
+[x] Keep folders on top in windows and on Desktop
+
+- When performing a search, search current folder
+
+### View
+
+- Choose column view for every directory
+
+- Show Status Bar
+
+- Show Path Bar
+
+- Show Tab Bar
+
+
+
+## Trackpad / Mouse
+
+- Increase to max speed -1
+- Enable click on tap
+
+## Accessibility
+-> Pointer Control -> Trackpad Options -> Use trackpad for dragging -> three finger drag
+
+## Dock
+I don't use the Dock at all. It takes up screen space, and I can use Alfred to launch apps and AltTab to switch between apps (all using the keyboard). I make the dock as small as possible and auto hide it.
+
+- Remove everything possible
+
+- Don't show recent apps/docs
+
+- Shrink size to minimum
+
+- Auto hide and show
+
+- Move to the right 
+
+
+# Basics
+
+##  Homebrew 
+
+All my apps will be installed using Homebrew, the best package manager for Mac. Before installing it, it can be a good idea to remove the preinstalled apps that you do not need and where removal is possible.
+Install it using the terminal and enter the following line: 
+```{r}
+#| echo: true
+#| code-fold: true
+#| eval: false
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+From now on, go to [brew.sh](https://brew.sh/) to retrieve the commands to install your favorite apps. 
+A list of apps can be saved in a txt file and installed from there. 
+
+```{r}
+#| echo: true
+#| code-fold: true
+#| eval: false
+
+nano appstoinstall.txt
+<paste apps>
+
+xargs brew install < apps.txt
+```
+
+## Iterm2 
+[Iterm2](https://iterm2.com/documentation.html) is the nicest terminal for Mac. I don't use it very much but way nicer than the native terminal app
+
+In your mac terminal, run: 
+```{r}
+#| echo: true
+#| code-fold: true
+#| eval: false
+
+brew install --cask iterm2
+```
+
+
+
+### Settings
+
+Appearance
+
+- Theme: Minimal
+
+Profiles
+
+Default
+
+- General -> Working Directory -> Reuse previous session's directory
+- Colors -> Basic Colors -> Foreground -> Lime Green
+- Text -> Font -> Anonymous Pro
+        You can download this font [here](https://www.marksimonson.com/fonts/view/anonymous-pro). (Unzip, double click on the anonymous pro.rft, drag and drop all other with same file extension there. 
+        I use this font in VS Code as well)
+- Text -> Font Size -> 24
+
+- Keys -> Key Mappings -> Presets -> Natural Text Editing (This allows me to use the keyboard shortcuts I know and love inside of iTerm2)
+
+I am also using bash in iterm, check [this source](https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c#firefox) for some guidance and to see that I only copied stuff.
+
+# Best Apps For Productivity
+
+## [Rectangle](https://rectangleapp.com/)
+This allows you to create shortcuts to move windows and change sizes. I use it all the time.
+I used Magnet before, however, this is an open source and free version and is therefore preferred.
+
+Save below and import it the .json file from the setting panel in the Rectangle app.
+
+[Configuration File](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/RectangleConfig.json)
+
+
+## [Alt-Tab](https://alt-tab-macos.netlify.app/)
+Use alttab to change windows in a Windows manner with alttab. I use option tab to change windows of the same app and the Windows layout.
+
+## [Alfred](https://www.alfredapp.com/)
+This app replaces spotlight and is 100000 times better (change shortcut to cmd+spacebar). It finds all your documents, folders, and apps much faster. It also calculates, directly performs searches in youtube, maps, whatever. You can also easily setup a currency exchange shortcut under websearch. *(maybe explain further)*
+
+
+## [DeepL](https://www.deepl.com/en/translator)
+The best translator, comes with a nice app that allows you to create a shortcut to translate a marked text, documents, and you can even screenshot parts of the screen to translate with a shortcut. 
+
+## [Clipy](https://clipy-app.com/)
+
+This app allows you to save your clipboard history. 
+Important: Uncheck "Display Items in Menu Items". The shortcut I use is control+cmd+v.
+
+## [MonitorControl](https://github.com/MonitorControl/MonitorControl#readme)
+Allows to control brightness on every display you use from the menu bar. (stopped using it)
+
+## [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+
+The only popular browser that does not run on chromium 🥳.
+I like to suppport the Mozilla foundation and have a great browsing experience using it. These add-ons are very focused on privacy protection. 
+
+### Add-ons:
+
+- Privacy Badger
+- Cookue AutoDelete
+- uBlock Origin
+- Nordvpn
+- TWP / Translate Web pages  / always translate Danish, never - German and English
+- Consent-o-matic
+- Dark reader
+- OneTab
+- LanguageTool
+- Tabliss (to have an all black Home)
+- Zotero
+
+## [Zotero](https://www.zotero.org/)
+
+My favorite reference manager! (Also [jabref](https://www.jabref.org/) is pretty good.) I strongly recommend using a free and open source reference manager to keep your libraries accessible regardless of your subscriptions. Try not to use Mendeley or any other from big publishers. 
+
+To create a first-sight categorization of your articles, you can assign them an emoji as a tag and then assign a color to this emoji (right-click on the tag in bottom right corner). Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below. 
+
+![Zotero-Emojies](/supplementary-files/zotero_emojis.png)
+
+### [Add-Ons:](https://www.zotero.org/support/plugins)
+
+- Better BibTex
+- DOI Manager
+- Night for Zotero
+- Zotfile (set-up file storage on a cloud server, instructions [here](https://guides.lib.berkeley.edu/zotero/zotfile))
+- Zotilo
+
+
+
+## [VS Code](https://code.visualstudio.com/)
+My favorive code editor is vscode. It is very leightweight and, most importantly, you can use it for every programming language and even use Jupyter Notebooks or Quarto to create living documents. 
+To sync your extensions and settings accross devices, I recommend turning on the sync settings option.
+
+These are my [settings](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/VSCodeSettings.json)
+
+These are my [shortcuts](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/VSCodeShortcuts.json)
+
+My favorive extensions are: 
+```{r}
+#| echo: true
+#| code-fold: true
+#| eval: false
+
+# to get a list of all extensions, run 
+
+code --list-extensions
+
+# in the terminal
+
+```
+
+- path-intellisense
+- gitlens
+- prettier-vscode
+- vscode-reveal
+- fontsize-shortcuts
+- path-autocomplete
+- ms-python.isort
+- ms-python.python
+- ms-python.vscode-pylance
+- ms-toolsai.jupyter
+- ms-toolsai.jupyter-keymap
+- ms-toolsai.jupyter-renderers
+- ms-toolsai.vscode-jupyter-cell-tags
+- ms-toolsai.vscode-jupyter-slideshow
+- just-black
+- quarto
+- RDebugger.r-debugger
+- REditorSupport.r
+- code-spell-checker
+- errorlens
+- vscode-icons
+- grammarly
+
+
+# Apps I stopped using: 
+- Maccy
+- Itsycal
+- Magnet
+- Get Plain Text
+- CheatSheet
+- Stretchly
+- Time Out
+
+recommended apps in a .txt [file](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/apps2install.txt)
+
+Finally, big shout out CJ from coding garden who's [Youtube Video](https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c) on how to setup a Mac is amazing! 
+
+
+Find the code of the website [here](https://github.com/jarolim14/lukaswestphal) 

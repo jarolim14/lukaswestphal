@@ -3,3 +3,11 @@ title: "About"
 ---
 
 About this site
+
+
+```{r}
+#| echo: true
+#| code-fold: true
+#| eval: false
+co <- c("check")
+```

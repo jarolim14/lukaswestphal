@@ -1,0 +1,197 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true
+  },
+
+  "search.useIgnoreFiles": false,
+  "explorer.openEditors.visible": 0,
+  "editor.linkedEditing": true,
+  "editor.snippetSuggestions": "top",
+  "emmet.showAbbreviationSuggestions": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Just Black",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontLigatures": true,
+  "terminal.external.osxExec": "Terminal.app",
+  "terminal.integrated.fontSize": 16,
+  "editor.fontFamily": "Anonymous Pro",
+  "files.autoSave": "off",
+  "markdown.preview.fontSize": 24,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.minimap.enabled": false,
+
+  "git.autofetch": true,
+  "editor.lineHeight": 0,
+  "editor.fontSize": 14,
+  "vsicons.dontShowNewVersionMessage": true,
+  "extensions.ignoreRecommendations": true,
+
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "security.workspace.trust.untrustedFiles": "open",
+  "fontshortcuts.defaultFontSize": 16,
+  "fontshortcuts.defaultTerminalFontSize": 16,
+
+  "quarto.mathjax.theme": "dark",
+  "quarto.assist.updateMode": "live",
+  "files.associations": {
+    "*.rmd": "markdown"
+  },
+  "r.plot.defaults.colorTheme": "vscode",
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "eslint.enable": true,
+  "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.suggestSelection": "first",
+  "[r]": {
+    "editor.defaultFormatter": "REditorSupport.r"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#00ff00",
+    "terminal.background": "#000000"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      }
+    ]
+  },
+  "git.enableSmartCommit": true,
+  "r.rpath.mac": "/Library/Frameworks/R.framework/Resources/bin/R",
+  "r.rterm.mac": "/Library/Frameworks/Python.framework/Versions/3.11/bin/radian",
+  "r.rterm.option": [],
+  "r.bracketedPaste": true,
+  "terminal.integrated.env.osx": {
+    "R_HOME": "/Library/Frameworks/R.framework/Resources"
+  },
+  "editor.parameterHints.cycle": true,
+  "r.libPaths": [
+    "\"/Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library/"
+  ],
+  "r.lsp.debug": true,
+  "cSpell.allowCompoundWords": true,
+  "cSpell.enableFiletypes": ["qmd", ".qmd"],
+  "cSpell.checkOnlyEnabledFileTypes": false,
+  "cSpell.userWords": ["Pharmacoepidemiology"],
+  "cSpell.language": "en,en-US",
+  "errorLens.enabled": true,
+  "errorLens.enabledDiagnosticLevels": ["warning", "error"],
+  "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
+  "git.confirmSync": false
+}

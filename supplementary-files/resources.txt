@@ -1,0 +1,16 @@
+
+How to build website with quarto: 
+the blog
+https://ddimmery.com/posts/quarto-website/
+the repo
+https://github.com/ddimmery/quarto-website
+
+the blog
+https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/
+the repo
+https://github.com/djnavarro/quarto-blog
+
+curated list of Quarto® docs, talks, tools, examples & articles
+https://github.com/mcanouil/awesome-quarto
+
+
