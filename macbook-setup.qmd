@@ -14,7 +14,7 @@ I will start with most important settings on a new MacBook.
 
 [] Uncheck everything
 
-- choose most frequently used directory  for new windows
+- choose most frequently used directory for new windows
 
 #### Sidebar
 
@@ -48,6 +48,7 @@ Remove
 
 - Show Tab Bar
 
+- Add the *New Folder* icon to the toolbar
 
 
 ## Trackpad / Mouse
@@ -247,6 +248,11 @@ code --list-extensions
 - CheatSheet
 - Stretchly
 - Time Out
+
+# Apps to try in the future
+
+- FlyCut (Clipboard manager)
+- 
 
 recommended apps in a .txt [file](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/apps2install.txt)
 
