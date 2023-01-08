@@ -254,6 +254,16 @@ code --list-extensions
 - FlyCut (Clipboard manager)
 - 
 
+<!-- Check python installation in the video of arjanCodes on YT. 
+vs code extensions he mentions: 
+
+Markdown preview Mermaid
+check vim
+vscode pdf
+
+ -->
+
+
 recommended apps in a .txt [file](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/apps2install.txt)
 
 Finally, big shout out CJ from coding garden who's [Youtube Video](https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c) on how to setup a Mac is amazing! 
