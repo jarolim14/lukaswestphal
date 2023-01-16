@@ -2,6 +2,20 @@
 title: "About"
 ---
 
-Hello World! 
+<!-- 
+To Do:
+- [] Add Xcode, maybe MacPorts
+- [] Add the copy-paste thing to the homebrew install
+- [] More detailed git tutorial. check the course and here https://git-scm.com/downloads
+- [] Add this https://education.github.com/git-cheat-sheet-education.pdf
+-->
 
-I am a PhD Student in Copenhagen and just wanted to build a website to build a website. I picture it to be a repository that stores all the handy little apps, workflows, tricks and tricks that I use in my daily work. It might also turn into something where I write about things, my interests mainly lie within psychology, data science, and politics. 
+About this site
+
+
+```{r}
+#| echo: true
+#| code-fold: true
+#| eval: false
+co <- c("check")
+```
