@@ -9,6 +9,8 @@ To Do:
 - [] More detailed git tutorial. check the course and here https://git-scm.com/downloads
 - [] Add this https://education.github.com/git-cheat-sheet-education.pdf
 - [] Add Zotero instructions. automatic export using betterbib, storage of files in clouds, etc.
+https://guides.lib.berkeley.edu/zotero/zotfile
+
 -->
 
 
