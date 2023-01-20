@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.189">
+<meta name="generator" content="quarto-1.2.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -143,13 +143,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./macbook-setup.html" aria-current="page">MacBook Setup</a>
+    <a class="nav-link active" href="./macbook-setup.html" aria-current="page">
+ <span class="menu-text">MacBook Setup</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -219,6 +222,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#vs-code" id="toc-vs-code" class="nav-link" data-scroll-target="#vs-code">VS Code</a></li>
   </ul></li>
   <li><a href="#apps-i-stopped-using" id="toc-apps-i-stopped-using" class="nav-link" data-scroll-target="#apps-i-stopped-using">Apps I stopped using:</a></li>
+  <li><a href="#apps-to-try-in-the-future" id="toc-apps-to-try-in-the-future" class="nav-link" data-scroll-target="#apps-to-try-in-the-future">Apps to try in the future</a></li>
   </ul>
 </nav>
     </div>
@@ -235,6 +239,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -282,6 +287,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p>Show Status Bar</p></li>
 <li><p>Show Path Bar</p></li>
 <li><p>Show Tab Bar</p></li>
+<li><p>Add the <em>New Folder</em> icon to the toolbar</p></li>
 </ul>
 </section>
 </section>
@@ -473,6 +479,21 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Stretchly</li>
 <li>Time Out</li>
 </ul>
+</section>
+<section id="apps-to-try-in-the-future" class="level1">
+<h1>Apps to try in the future</h1>
+<ul>
+<li>FlyCut (Clipboard manager)</li>
+<li></li>
+</ul>
+<!-- Check python installation in the video of arjanCodes on YT. 
+vs code extensions he mentions: 
+
+Markdown preview Mermaid
+check vim
+vscode pdf
+
+ -->
 <p>recommended apps in a .txt <a href="https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/apps2install.txt">file</a></p>
 <p>Finally, big shout out CJ from coding garden who’s <a href="https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c">Youtube Video</a> on how to setup a Mac is amazing!</p>
 <p>Find the code of the website <a href="https://github.com/jarolim14/lukaswestphal">here</a></p>
@@ -522,7 +543,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -558,24 +596,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
