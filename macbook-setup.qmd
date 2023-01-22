@@ -75,7 +75,7 @@ I don't use the Dock at all. It takes up screen space, and I can use Alfred to l
 
 # Basics
 
-##  Homebrew 
+##  (Homebrew)[https://brew.sh/] 
 
 All my apps will be installed using Homebrew, the best package manager for Mac. Before installing it, it can be a good idea to remove the preinstalled apps that you do not need and where removal is possible.
 Install it using the terminal and enter the following line: 
@@ -86,7 +86,7 @@ Install it using the terminal and enter the following line:
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
+Then copy, paste and run the three lines of code that are presented at the end of the installation. 
 From now on, go to [brew.sh](https://brew.sh/) to retrieve the commands to install your favorite apps. 
 A list of apps can be saved in a txt file and installed from there. 
 
