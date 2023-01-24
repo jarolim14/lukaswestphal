@@ -14,6 +14,8 @@ website:
       - about.qmd
       - href: macbook-setup.qmd
         text: MacBook Setup
+      - href: working-with-R.qmd
+        text: R in VS Code
 
   sidebar:
     style: docked
