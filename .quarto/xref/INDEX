@@ -16,5 +16,14 @@
   },
   "working-with-R.qmd": {
     "working-with-R.html": "69933bac"
+  },
+  "blog.qmd": {
+    "blog.html": "b2db2c8c"
+  },
+  "home.qmd": {
+    "home.html": "e324fa3a"
+  },
+  "zotero.qmd": {
+    "zotero.html": "a599ff56"
   }
 }

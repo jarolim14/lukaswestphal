@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Blog"
 ---
 
 <!-- 
@@ -28,8 +28,8 @@ Initially created to treat patients with Type 2 Diabetes, the drug 'semaglutide'
 On the one hand, it is a promising treatment option for obese patients, however, the great enthusiasm outside the patient population raises broader questions about weight, health, obesity, and society.
 
 Every day, we are targeted by advertisements that depict famous athletes or models eating high fat, high sugar, and high processed food. 
-![klum](/images/heidi-klum-wirbt-fuer-mcdonald.JPG)
-![jordan](/images/Michael-Jordan-McDonalds.png)
+![klum](/supplementary-files/images/heidi-klum-wirbt-fuer-mcdonald.JPG)
+![jordan](/supplementary-files/images/Michael-Jordan-McDonalds.png)
 
 These people are symbols of beauty, fitness, success, and discipline and their association with these products is supposed to convey these attributes to the respective products. They might further work in countering negative perceptions of these products as being unhealthy. Because one thing is for certain - we do not want to be seen as obese, or even slightly overweighed. In public media, shows like 'The Biggest Loser' depict obese people as lacking self-regulatory capacities and follow the folk rationale that obese people lack willpower and discipline, are unhygienic, and lazy. A phenomenon oftentimes describes as fatphobia the 'the implicit and explicit bias of overweight individuals that is rooted in a sense of blame and presumed moral failing.'
 In parallel, social media (Instagram, TicToc, Snapchat) bombard us with an ideal of beauty that emphasizes athleticism, slimness and skin free of impurities, which creates a false perception of the norm and is reflected not least in the available filters on these platforms.

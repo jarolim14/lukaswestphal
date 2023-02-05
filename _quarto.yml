@@ -9,13 +9,16 @@ website:
   title: "lukas westphal"
   navbar:
     left:
-      - href: index.qmd
+      - href: home.qmd
         text: Home
-      - about.qmd
+      - href: blog.qmd
+        text: Blog
       - href: macbook-setup.qmd
         text: MacBook Setup
       - href: working-with-R.qmd
         text: R in VS Code
+      - href: zotero.qmd
+        text: Zotero Workflow
 
   sidebar:
     style: docked
