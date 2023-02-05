@@ -4,14 +4,14 @@
     "href": "macbook-setup.html",
     "title": "MacBook Setup",
     "section": "",
-    "text": "Working with a new computer can be great fun. However, I repeatedly forget to my favorite programs and settings that I frequently use. Therefore, I built this little thing to help my future self out and maybe even someone else. I will start with most important settings on a new MacBook."
+    "text": "Working with a new computer can be great fun. However, I repeatedly forget my favorite programs and settings. Therefore, I built this little thing to help out my future self and maybe even someone else. I will start with the most important settings on a new MacBook."
   },
   {
     "objectID": "macbook-setup.html#finder",
     "href": "macbook-setup.html#finder",
     "title": "MacBook Setup",
     "section": "Finder",
-    "text": "Finder\n\nSettings\n\nGeneral\n[] Uncheck everything\n\nchoose most frequently used directory for new windows\n\n\n\nSidebar\nRemove\n\nRecents\nAirDrop\nOn My Mac\nRecent tags\n\n\n\nAdvanced\n[x] Show all filename extension\n[ ] Show warning before changing an extension\n[x] Keep folders on top in windows and on Desktop\n\nWhen performing a search, search current folder\n\n\n\n\nView\n\nChoose column view for every directory\nShow Status Bar\nShow Path Bar\nShow Tab Bar\nAdd the New Folder icon to the toolbar"
+    "text": "Finder\n\nSettings\n\nGeneral\n[] Uncheck everything\n\nchoose the most frequently used directory for new windows\n\n\n\nSidebar\nRemove:\n\nRecents\nAirDrop\nOn My Mac\nRecent tags\n\n\n\nAdvanced\n[x] Show all filename extension\n[ ] Show warning before changing an extension\n[x] Keep folders on top in windows and on Desktop\n\nWhen performing a search, search current folder\n\n\n\n\nView\n\nChoose column view for every directory\nShow Status Bar\nShow Path Bar\nShow Tab Bar\nAdd the New Folder icon to the toolbar"
   },
   {
     "objectID": "macbook-setup.html#trackpad-mouse",
@@ -46,42 +46,42 @@
     "href": "macbook-setup.html#iterm2",
     "title": "MacBook Setup",
     "section": "Iterm2",
-    "text": "Iterm2\nIterm2 is the nicest terminal for Mac. I don’t use it very much but way nicer than the native terminal app\nIn your mac terminal, run:\n\n\nCode\nbrew install --cask iterm2\n\n\n\nSettings\nAppearance\n\nTheme: Minimal\n\nProfiles\nDefault\n\nGeneral -> Working Directory -> Reuse previous session’s directory\nColors -> Basic Colors -> Foreground -> Lime Green\nText -> Font -> Anonymous Pro You can download this font here. (Unzip, double click on the anonymous pro.rft, drag and drop all other with same file extension there. I use this font in VS Code as well)\nText -> Font Size -> 24\nKeys -> Key Mappings -> Presets -> Natural Text Editing (This allows me to use the keyboard shortcuts I know and love inside of iTerm2)\n\nI am also using bash in iterm, check this source for some guidance and to see that I only copied stuff."
+    "text": "Iterm2\nIterm2 is the nicest terminal for Mac. I don’t use it very much but way nicer than the native terminal app\nIn your mac terminal, run:\n\n\nCode\nbrew install --cask iterm2\n\n\n\nSettings\nAppearance\n\nTheme: Minimal\n\nProfiles\nDefault\n\nGeneral -> Working Directory -> Reuse previous session’s directory\nColors -> Basic Colors -> Foreground -> Lime Green\nText -> Font -> Anonymous Pro You can download this font here. (Unzip, double click on the anonymous pro.rft, drag and drop all other with same file extension there. I use this font in VS Code as well)\nText -> Font Size -> 24\nKeys -> Key Mappings -> Presets -> Natural Text Editing (This allows me to use the keyboard shortcuts I know and love inside of iTerm2)"
   },
   {
     "objectID": "macbook-setup.html#rectangle",
     "href": "macbook-setup.html#rectangle",
     "title": "MacBook Setup",
     "section": "Rectangle",
-    "text": "Rectangle\nThis allows you to create shortcuts to move windows and change sizes. I use it all the time. I used Magnet before, however, this is an open source and free version and is therefore preferred.\nSave below and import it the .json file from the setting panel in the Rectangle app.\nConfiguration File"
+    "text": "Rectangle\nThis allows you to create shortcuts to move windows and change sizes. I use it all the time. I used Magnet before, however, this is an open source and free version and is therefore preferred.\nSave the Configuration File and import it from the setting panel in the Rectangle app."
   },
   {
     "objectID": "macbook-setup.html#alt-tab",
     "href": "macbook-setup.html#alt-tab",
     "title": "MacBook Setup",
     "section": "Alt-Tab",
-    "text": "Alt-Tab\nUse alttab to change windows in a Windows manner with alttab. I use option tab to change windows of the same app and the Windows layout."
+    "text": "Alt-Tab\nUse alttab to change windows in a Windows manner with alttab. I use option tab to change windows of the same app and use the Windows layout."
   },
   {
     "objectID": "macbook-setup.html#alfred",
     "href": "macbook-setup.html#alfred",
     "title": "MacBook Setup",
     "section": "Alfred",
-    "text": "Alfred\nThis app replaces spotlight and is 100000 times better (change shortcut to cmd+spacebar). It finds all your documents, folders, and apps much faster. It also calculates, directly performs searches in youtube, maps, whatever. You can also easily setup a currency exchange shortcut under websearch. (maybe explain further)"
+    "text": "Alfred\nThis app replaces spotlight and is 100000 times better (change shortcut to cmd+spacebar). It finds all your documents, folders, and apps much faster. It also calculates, and directly performs searches on youtube, maps, whatever. You can also easily set up a currency exchange shortcut, just go to Features -> Websearch -> Add Custom Search. Then use a URL and instead of the search term, enter {query}."
   },
   {
     "objectID": "macbook-setup.html#deepl",
     "href": "macbook-setup.html#deepl",
     "title": "MacBook Setup",
     "section": "DeepL",
-    "text": "DeepL\nThe best translator, comes with a nice app that allows you to create a shortcut to translate a marked text, documents, and you can even screenshot parts of the screen to translate with a shortcut."
+    "text": "DeepL\nThe best translator comes with a nice app that allows you to create a shortcut to translate marked text and documents, and you can even screenshot parts of the screen to translate with a shortcut."
   },
   {
     "objectID": "macbook-setup.html#clipy",
     "href": "macbook-setup.html#clipy",
     "title": "MacBook Setup",
     "section": "Clipy",
-    "text": "Clipy\nThis app allows you to save your clipboard history. Important: Uncheck “Display Items in Menu Items”. The shortcut I use is control+cmd+v."
+    "text": "Clipy\nThis app allows you to save your clipboard history. Important: Uncheck “Display Items in Menu Items”. The shortcut I use is ctrl+cmd+v."
   },
   {
     "objectID": "macbook-setup.html#monitorcontrol",
@@ -95,14 +95,14 @@
     "href": "macbook-setup.html#firefox",
     "title": "MacBook Setup",
     "section": "Firefox",
-    "text": "Firefox\nThe only popular browser that does not run on chromium 🥳. I like to suppport the Mozilla foundation and have a great browsing experience using it. These add-ons are very focused on privacy protection.\n\nAdd-ons:\n\nPrivacy Badger\nCookue AutoDelete\nuBlock Origin\nNordvpn\nTWP / Translate Web pages / always translate Danish, never - German and English\nConsent-o-matic\nDark reader\nOneTab\nLanguageTool\nTabliss (to have an all black Home)\nZotero"
+    "text": "Firefox\nThe only popular browser that does not run on chromium 🥳. I like to support the Mozilla foundation and have a great browsing experience using it. These add-ons are very focused on privacy protection.\n\nAdd-ons:\n\nPrivacy Badger\nCookue AutoDelete\nuBlock Origin\nNordvpn\nTWP / Translate Web pages / always translate Danish, never - German and English\nConsent-o-matic\nDark reader\nOneTab\nLanguageTool\nTabliss (to have an all black Home)\nZotero"
   },
   {
     "objectID": "macbook-setup.html#zotero",
     "href": "macbook-setup.html#zotero",
     "title": "MacBook Setup",
     "section": "Zotero",
-    "text": "Zotero\nMy favorite reference manager! (Also jabref is pretty good.) I strongly recommend using a free and open source reference manager to keep your libraries accessible regardless of your subscriptions. Try not to use Mendeley or any other from big publishers.\nTo create a first-sight categorization of your articles, you can assign them an emoji as a tag and then assign a color to this emoji (right-click on the tag in bottom right corner). Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below.\n\n\n\nZotero-Emojies\n\n\n\nAdd-Ons:\n\nBetter BibTex\nDOI Manager\nNight for Zotero\nZotfile (set-up file storage on a cloud server, instructions here)\nZotilo"
+    "text": "Zotero\nMy favorite reference manager! (Also jabref is pretty good.) I strongly recommend using a free and open-source reference manager to keep your libraries accessible regardless of your subscriptions. Try not to use Mendeley or any other from big publishers.\nTo create a first-sight categorization of your articles, you can assign them an emoji as a tag and then assign a color to this emoji (right-click on the tag in the bottom right corner). Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below.\n\n\n\nZotero-Emojies\n\n\n\nAdd-Ons:\n\nBetter BibTex\nDOI Manager\nNight for Zotero\nZotfile (set-up file storage on a cloud server, instructions here)\nZotilo"
   },
   {
     "objectID": "macbook-setup.html#vs-code",
@@ -152,5 +152,12 @@
     "title": "lukas westphal",
     "section": "",
     "text": "Hello World!\nI am a PhD Student in Copenhagen and just wanted to build a website to build a website. I picture it to be a repository that stores all the handy little apps, workflows, tricks and tricks that I use in my daily work. It might also turn into something where I write about things, my interests mainly lie within psychology, data science, and politics."
+  },
+  {
+    "objectID": "zotero.html",
+    "href": "zotero.html",
+    "title": "Zotero Workflow",
+    "section": "",
+    "text": "Throughout my academic work, I arrived at a workflow for reviewing literature that I really like. Here is a description.\nI use Zotero as a reference manager."
   }
 ]

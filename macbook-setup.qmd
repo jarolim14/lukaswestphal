@@ -2,9 +2,9 @@
 title: "MacBook Setup"
 ---
 
-Working with a new computer can be great fun. However, I repeatedly forget to my favorite programs and settings that I frequently use. 
-Therefore, I built this little thing to help my future self out and maybe even someone else.
-I will start with most important settings on a new MacBook.
+Working with a new computer can be great fun. However, I repeatedly forget my favorite programs and settings. 
+Therefore, I built this little thing to help out my future self and maybe even someone else.
+I will start with the most important settings on a new MacBook.
 
 # OS Settings
 ## Finder
@@ -14,11 +14,11 @@ I will start with most important settings on a new MacBook.
 
 [] Uncheck everything
 
-- choose most frequently used directory for new windows
+- choose the most frequently used directory for new windows
 
 #### Sidebar
 
-Remove
+Remove:
 
 - Recents
 
@@ -113,8 +113,6 @@ In your mac terminal, run:
 brew install --cask iterm2
 ```
 
-
-
 ### Settings
 
 Appearance
@@ -134,33 +132,27 @@ Default
 
 - Keys -> Key Mappings -> Presets -> Natural Text Editing (This allows me to use the keyboard shortcuts I know and love inside of iTerm2)
 
-I am also using bash in iterm, check [this source](https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c#firefox) for some guidance and to see that I only copied stuff.
-
 # Best Apps For Productivity
 
 ## [Rectangle](https://rectangleapp.com/)
 This allows you to create shortcuts to move windows and change sizes. I use it all the time.
 I used Magnet before, however, this is an open source and free version and is therefore preferred.
 
-Save below and import it the .json file from the setting panel in the Rectangle app.
-
-[Configuration File](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/RectangleConfig.json)
-
+Save the [Configuration File](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/RectangleConfig.json) and import it from the setting panel in the Rectangle app.
 
 ## [Alt-Tab](https://alt-tab-macos.netlify.app/)
-Use alttab to change windows in a Windows manner with alttab. I use option tab to change windows of the same app and the Windows layout.
+Use alttab to change windows in a Windows manner with alttab. I use option tab to change windows of the same app and use the Windows layout.
 
 ## [Alfred](https://www.alfredapp.com/)
-This app replaces spotlight and is 100000 times better (change shortcut to cmd+spacebar). It finds all your documents, folders, and apps much faster. It also calculates, directly performs searches in youtube, maps, whatever. You can also easily setup a currency exchange shortcut under websearch. *(maybe explain further)*
-
+This app replaces spotlight and is 100000 times better (change shortcut to cmd+spacebar). It finds all your documents, folders, and apps much faster. It also calculates, and directly performs searches on youtube, maps, whatever. You can also easily set up a currency exchange shortcut, just go to Features -> Websearch -> Add Custom Search. Then use a URL and instead of the search term, enter {query}.
 
 ## [DeepL](https://www.deepl.com/en/translator)
-The best translator, comes with a nice app that allows you to create a shortcut to translate a marked text, documents, and you can even screenshot parts of the screen to translate with a shortcut. 
+The best translator comes with a nice app that allows you to create a shortcut to translate marked text and documents, and you can even screenshot parts of the screen to translate with a shortcut. 
 
 ## [Clipy](https://clipy-app.com/)
 
 This app allows you to save your clipboard history. 
-Important: Uncheck "Display Items in Menu Items". The shortcut I use is control+cmd+v.
+Important: Uncheck "Display Items in Menu Items". The shortcut I use is ctrl+cmd+v.
 
 ## [MonitorControl](https://github.com/MonitorControl/MonitorControl#readme)
 Allows to control brightness on every display you use from the menu bar. (stopped using it)
@@ -168,7 +160,7 @@ Allows to control brightness on every display you use from the menu bar. (stoppe
 ## [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 The only popular browser that does not run on chromium 🥳.
-I like to suppport the Mozilla foundation and have a great browsing experience using it. These add-ons are very focused on privacy protection. 
+I like to support the Mozilla foundation and have a great browsing experience using it. These add-ons are very focused on privacy protection. 
 
 ### Add-ons:
 
@@ -186,9 +178,9 @@ I like to suppport the Mozilla foundation and have a great browsing experience u
 
 ## [Zotero](https://www.zotero.org/)
 
-My favorite reference manager! (Also [jabref](https://www.jabref.org/) is pretty good.) I strongly recommend using a free and open source reference manager to keep your libraries accessible regardless of your subscriptions. Try not to use Mendeley or any other from big publishers. 
+My favorite reference manager! (Also [jabref](https://www.jabref.org/) is pretty good.) I strongly recommend using a free and open-source reference manager to keep your libraries accessible regardless of your subscriptions. Try not to use Mendeley or any other from big publishers. 
 
-To create a first-sight categorization of your articles, you can assign them an emoji as a tag and then assign a color to this emoji (right-click on the tag in bottom right corner). Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below. 
+To create a first-sight categorization of your articles, you can assign them an emoji as a tag and then assign a color to this emoji (right-click on the tag in the bottom right corner). Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below. 
 
 ![Zotero-Emojies](/supplementary-files/zotero_emojis.png)
 
@@ -221,7 +213,6 @@ My favorive extensions are:
 code --list-extensions
 
 # in the terminal
-
 ```
 
 - path-intellisense
@@ -264,7 +255,7 @@ vscode pdf
  -->
 
 
-recommended apps in a .txt [file](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/apps2install.txt)
+Recommended apps in a .txt [file](https://downgit.github.io/#/home?url=https://github.com/jarolim14/lukaswestphal/blob/master/supplementary-files/apps2install.txt)
 
 Finally, big shout out CJ from coding garden who's [Youtube Video](https://dev.to/w3cj/setting-up-a-mac-for-development-3g4c) on how to setup a Mac is amazing! 
 

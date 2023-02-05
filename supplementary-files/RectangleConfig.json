@@ -16,6 +16,9 @@
     "altThirdCycle" : {
       "int" : 0
     },
+    "alwaysAccountForStage" : {
+      "int" : 0
+    },
     "applyGapsToMaximize" : {
       "int" : 0
     },
@@ -56,7 +59,7 @@
       "float" : 0.30000001192092896
     },
     "footprintAnimationDurationMultiplier" : {
-      "float" : 0.75
+      "float" : 0
     },
     "footprintBorderWidth" : {
       "float" : 2
@@ -217,6 +220,10 @@
       "keyCode" : 8,
       "modifierFlags" : 1572864
     },
+    "centerThird" : {
+      "keyCode" : 2,
+      "modifierFlags" : 786432
+    },
     "firstThird" : {
       "keyCode" : 12,
       "modifierFlags" : 655360
@@ -282,5 +289,5 @@
       "modifierFlags" : 655360
     }
   },
-  "version" : "70"
+  "version" : "71"
 }
