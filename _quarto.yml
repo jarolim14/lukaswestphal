@@ -9,7 +9,7 @@ website:
   title: "lukas westphal"
   navbar:
     left:
-      - href: home.qmd
+      - href: index.qmd
         text: Home
       - href: blog.qmd
         text: Blog
