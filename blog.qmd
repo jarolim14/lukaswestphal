@@ -2,6 +2,7 @@
 title: "Blog"
 ---
 
+# Here will be my first blog post. in the making...
 <!-- 
 To Do:
 - [] Add Xcode, maybe MacPorts
@@ -20,7 +21,7 @@ Title options
     "Pondering the Pros and Cons of Pharmaceutical Weight Loss"
     "Pushing Pills or Progressing in the Fight Against Obesity?"
     "Pondering the Pervasive Power of Pharmaceuticals in the Pursuit of Perfection"
--->
+
 # anxiety, ideals of beauty, hyper-individualism and medicalization
 
 Initially created to treat patients with Type 2 Diabetes, the drug 'semaglutide' gained approval from the FDA to treat obesity and has since gotten a lot of attention. Elon Musk attributed his weight loss to the new drug called 'Wegovy' and Kim Kadashian is believed to have used the drug to lose 7kg in three weeks to fit into a dress that belonged to Marilyn Monroe. Today, the demand is so high, the producing pharmaceutical giant Novo Nordisk is unable to meet the demand even though the drug is only available in the US. On the one hand, it is a promising treatment option for obese patients, indicated for people with a BMI higher than 30. However, the great enthusiasm outside the patient population raises broader questions about weight, health, obesity, and society.
@@ -41,3 +42,4 @@ Secondly, both approaches to tackling perceived inadequacies fall short on an im
 
 
 However, this representation of obesity and weight loss can be stigmatizing in several ways: (ytvideo)[https://www.youtube.com/watch?v=eD0IrZvKVQk] (ytvideo)[https://www.youtube.com/watch?v=HmtbL4j9_hw]
+-->

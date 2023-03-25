@@ -177,6 +177,7 @@ I like to support the Mozilla foundation and have a great browsing experience us
 - Zotero
 
 ## [Zotero](https://www.zotero.org/)
+<!-- create a link to the extra page for zotero! -->
 
 My favorite reference manager! (Also [jabref](https://www.jabref.org/) is pretty good.) I strongly recommend using a free and open-source reference manager to keep your libraries accessible regardless of your subscriptions. Try not to use Mendeley or any other from big publishers. 
 
