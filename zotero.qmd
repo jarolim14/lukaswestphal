@@ -1,7 +1,7 @@
 ---
 title: "Zotero Workflow"
 ---
-
+# WIP
 Throughout my academic work, I arrived at a workflow for reviewing literature that I really like. Here is a description. 
 
 I use [Zotero](https://www.zotero.org/) as a reference manager. 

@@ -2,6 +2,7 @@
 title: "Working with R in VS-Code"
 ---
 
+# WIP
 Check this [website](https://cran.r-project.org/web/packages/rUM/vignettes/O1_make_research_project.html) to create quarto setup files 
 
 install radian using python
