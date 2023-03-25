@@ -11,14 +11,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      #- href: blog.qmd
-      #  text: Blog
+      - href: blog.qmd
+        text: Blog
       - href: macbook-setup.qmd
         text: MacBook Setup
-      #- href: working-with-R.qmd
-      #  text: R in VS Code
-      #- href: zotero.qmd
-      #  text: Zotero Workflow
+      - href: working-with-R.qmd
+        text: R in VS Code
+      - href: zotero.qmd
+        text: Zotero Workflow
 
   sidebar:
     style: docked
