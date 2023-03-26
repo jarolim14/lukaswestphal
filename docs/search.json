@@ -130,7 +130,7 @@
     "href": "working-with-R.html",
     "title": "Working with R in VS-Code",
     "section": "",
-    "text": "WIP\nCheck this website to create quarto setup files\ninstall radian using python\nset up path in the settings\netc"
+    "text": "WIP"
   },
   {
     "objectID": "macbook-setup.html#homebrewhttpsbrew.sh",
@@ -159,5 +159,12 @@
     "title": "Zotero Workflow",
     "section": "",
     "text": "WIP\nThroughout my academic work, I arrived at a workflow for reviewing literature that I really like. Here is a description.\nI use Zotero as a reference manager."
+  },
+  {
+    "objectID": "collectionofcollections.html",
+    "href": "collectionofcollections.html",
+    "title": "Collections",
+    "section": "",
+    "text": "Computational Social Science by Gesis Repo"
   }
 ]

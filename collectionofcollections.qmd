@@ -1,0 +1,7 @@
+---
+title: "Collections"
+---
+
+<!-- find a good structure with subheadings. -->
+
+1. Computational Social Science by Gesis [Repo](https://github.com/gesiscss/awesome-computational-social-science)

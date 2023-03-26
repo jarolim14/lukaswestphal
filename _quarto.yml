@@ -19,6 +19,8 @@ website:
         text: R in VS Code
       - href: zotero.qmd
         text: Zotero Workflow
+      - href: collectionofcollections.qmd
+      - text: Collections
 
   sidebar:
     style: docked
