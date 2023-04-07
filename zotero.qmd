@@ -26,13 +26,13 @@ Add-ons are small programs that extend the functionality of Zotero widely. Here 
 1. **Zotfile** for data storage: The free cloud-storage will be filled up rather quickly. However, if you want to work on your library from different computers, it can be really handy to have it stored in the cloud. The most convenient way is to upgrade your account, for $20 a year, you get 2GB of storage. See [here](https://www.zotero.org/settings/storage?ref=usb) for more info. 
 I opted for a different solution and use a OneDrive folder to store my Zotero library. Setting up requires some steps:
 
-    1.a) Create a folder in a directory where you want your files to be stored.
+    a) Create a folder in a directory where you want your files to be stored.
 
-    1.b) Download and install the[ Zotfile add-on](http://zotfile.com/).
+    b) Download and install the[ Zotfile add-on](http://zotfile.com/).
 
-    1.c) In Zotero settings, go to `Sync` and uncheck `Sync attachment files in My Library`
+    c) In Zotero settings, go to `Sync` and uncheck `Sync attachment files in My Library`
 
-    1.d) Click on `Tool` and open Zotfile preferences. The `Source Folder for Attaching New Files` should typically be your download folder[^1]. Below, set the Location of Files to `Custom Folder` and select the folder you created in 1.a. If you leave the `Use subfolder defined by` unchecked, all files will be stored in the folder you created in 1.a. If you check it, you can specify subfolders based on e.g. author, year, etc. \
+    d) Click on `Tool` and open Zotfile preferences. The `Source Folder for Attaching New Files` should typically be your download folder[^1]. Below, set the Location of Files to `Custom Folder` and select the folder you created in 1a. If you leave the `Use subfolder defined by` unchecked, all files will be stored in the folder you created in 1a. If you check it, you can specify subfolders based on e.g. author, year, etc. \
     Here is what I use:
     ![Zotfile Settings](/supplementary-files/zotero_sups/zotero_prefs.png)
     And how it looks:
@@ -41,17 +41,32 @@ I opted for a different solution and use a OneDrive folder to store my Zotero li
 
     [^1]: This only specifies which folder opens when you right-click on a Zotero reference and select `Add attachment from source folder.` I don't use this ever.
 
-    
+    e) In Zotfile, `Advanced Settings`, check `Remove special characters (diacritics) from filename.`
+
+    f) In Zotero settings, go to Advanced > Files and Folders and set `Linked Attachment Base Directory` to the folder you created in 1a. Repeat this on every computer you want to access the files from. 
+
+    g) Set the renaming rules in the Zotfile preferences. I use the following:
+    ![Zotfile Renaming](/supplementary-files/zotero_sups/zotero_renaming.png)
+
+    h) In your `My Library` window, click the paper clip to sort on attachment column. Select all papers that have a file attached and right-click on them. Select `Rename and Move.` This will move and rename all files to the folder you specified in 1.a. You might want to store a safety copy of your Zotero library beforehand in case something goes wrong.
+
+    Now, every newly created entry will automatically be stored in the specified way. Only when using drag and drop, it might not work and you have to manually selecet `rename and move` again.
+
+    *Note* that if you delete an item now, you will have to delete the pdf by right-clicking on the item and select "Show File."
+
+2. [**Better BibTex**](https://retorque.re/zotero-better-bibtex/) is great for creating citation keys and for exporting. This is my citation key settings:
+![Better BibTex](/supplementary-files/zotero_sups/biblatex.png)
+To export it as a .bib file, right-click on `My Library` and select `Export Library`. Select `Better BibLaTex`, uncheck abbreviated journal articles and check `keep updated`. I usually store this file in the directory where I am writing my paper.
 
 
+Other useful add-ons:
 
+3. **Night for Zotero**: I use this to change the color scheme of Zotero.
 
-### [Add-Ons:](https://www.zotero.org/support/plugins)
+4. **Inciteful Zotero Plugin**: This can help with finding new papers that are similar to a selected one.
 
-- Better BibTex
-- DOI Manager
-- Night for Zotero
-- Zotfile (set-up file storage on a cloud server, instructions [here](https://guides.lib.berkeley.edu/zotero/zotfile))
-- Zotilo
+5. **Zotero OCR**: This Zotero plugin adds Optical Character Recognition to Zotero. So you will always be able to search for / highlight text in your PDFs. 
 
--->
+6. [**Zutilo**](https://github.com/wshanks/Zutilo): An add on that is not so important to my workflow, but sometimes it is handy to copy paste multiple tags. 
+
+A last nice thing to know is that you can drag and drop multiple files into Zotero and it will very accurately create the reference. You can also select multiple items and drag them to a tag in the bottom left corner to assign them all the same tag.
