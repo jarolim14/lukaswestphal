@@ -6,3 +6,26 @@ Throughout my academic work, I arrived at a workflow for reviewing literature th
 
 I use [Zotero](https://www.zotero.org/) as a reference manager. 
 
+
+
+
+
+<!-- ## [Zotero](https://www.zotero.org/) 
+
+## [Zotero](https://www.zotero.org/)
+
+My favorite reference manager! (Also [jabref](https://www.jabref.org/) is pretty good.) I strongly recommend using a free and open-source reference manager to keep your libraries accessible regardless of your subscriptions. Try not to use Mendeley or any other from big publishers. 
+
+To create a first-sight categorization of your articles, you can assign them an emoji as a tag and then assign a color to this emoji (right-click on the tag in the bottom right corner). Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below. 
+
+![Zotero-Emojies](/supplementary-files/zotero_emojis.png)
+
+### [Add-Ons:](https://www.zotero.org/support/plugins)
+
+- Better BibTex
+- DOI Manager
+- Night for Zotero
+- Zotfile (set-up file storage on a cloud server, instructions [here](https://guides.lib.berkeley.edu/zotero/zotfile))
+- Zotilo
+
+-->

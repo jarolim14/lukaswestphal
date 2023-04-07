@@ -16,7 +16,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+cmd+,",
+    "key": "shift+cmd+o",
     "command": "editor.action.insertSnippet",
     "when": "editorTextFocus",
     "args": {
@@ -24,7 +24,7 @@
     }
   },
   {
-    "key": "shift+enter",
+    "key": "cmd+enter",
     "command": "quarto.runSelection",
     "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
   },
@@ -34,7 +34,7 @@
     "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
   },
   {
-    "key": "shift+enter",
+    "key": "cmd+enter",
     "command": "r.runSelection",
     "when": "editorTextFocus && editorLangId == 'r'"
   },
@@ -44,7 +44,7 @@
     "when": "editorTextFocus && editorLangId == 'r'"
   },
   {
-    "key": "shift+enter",
+    "key": "cmd+enter",
     "command": "r.runSelection",
     "when": "editorTextFocus && editorLangId == 'rmd'"
   },
@@ -208,5 +208,37 @@
     "key": "shift+cmd",
     "command": "cursorEnd",
     "when": "textInputFocus"
+  },
+  {
+    "key": "alt+cmd+1",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "alt+cmd+1",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "python.execSelectionInTerminal",
+    "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+  },
+  {
+    "key": "shift+enter",
+    "command": "-python.execSelectionInTerminal",
+    "when": "editorTextFocus && !findInputFocussed && !jupyter.ownsSelection && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "-rerunSearchEditorSearch",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "code-runner.run"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-code-runner.run"
   }
 ]
