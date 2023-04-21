@@ -99,6 +99,12 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./zotero.html" aria-current="page">
  <span class="menu-text">Zotero Workflow</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./collectionofcollections.html">
+ <span class="menu-text">Collections</span></a>
+  </li>  
+  <li class="dropdown-header">
+ <span class="menu-text">Collections</span></li>
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
@@ -129,7 +135,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#wip" id="toc-wip" class="nav-link active" data-scroll-target="#wip">WIP</a></li>
+  <li><a href="#general-set-up" id="toc-general-set-up" class="nav-link active" data-scroll-target="#general-set-up">General Set up</a></li>
+  <li><a href="#add-ons" id="toc-add-ons" class="nav-link" data-scroll-target="#add-ons">Add-Ons</a></li>
   </ul>
 </nav>
     </div>
@@ -153,15 +160,59 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="wip" class="level1">
-<h1>WIP</h1>
 <p>Throughout my academic work, I arrived at a workflow for reviewing literature that I really like. Here is a description.</p>
-<p>I use <a href="https://www.zotero.org/">Zotero</a> as a reference manager.</p>
+<p>I use <a href="https://www.zotero.org/">Zotero</a> as a reference manager. I strongly recommend using a free and open-source reference manager to keep your libraries accessible regardless of your subscriptions. Another good option is <a href="https://www.jabref.org/">jabref</a>, however, I think Zotero is more user-friendly and has a bigger community of contributors. I would try to refrain from using Mendeley since they are part of Elsevier, a big publisher with rather questionable business practices. Skimming its <a href="https://en.wikipedia.org/wiki/Elsevier">wikipedia</a> already gives you an idea, this <a href="https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science">guardian article</a> is a longer read but worth it.</p>
+<p>Already the default Zotero application is pretty good, it is of course possible to install add-ons to your browser and Word to integrate it with your literature search and writing process. However, to get the most out of the program, some helpful settings and add-ons can be recommended.</p>
+<section id="general-set-up" class="level2">
+<h2 class="anchored" data-anchor-id="general-set-up">General Set up</h2>
+<p>I store my entire collection of articles and books in a single Zotero library. In there, I have different collections for different topics. For example, I have a collection for my PhD thesis, the courses I teach, the books I like, and different collections of my favorite papers from different fields. To increase the overview I use some tweaks to the default settings.</p>
+<ol type="1">
+<li><p>Go to <code>view</code> and check the ‘Show Items from Subcollections’ option. If unsure in which subfolder you stored an article, you can now search for it in the main folder.</p></li>
+<li><p>In the General Settings -&gt; Miscellaneous, untick the box ‘Automatically tag items with keywords and subject headings’. I find this clutters the tags which I frequently use to categorize my articles. I try to keep them clean.</p></li>
+<li><p>To assign different attributes to some paper, I use emojis as tags and then assign a color to them. The way you do it is a) Click on a paper you have not read yet. In the right panel, click on <code>Tags</code> and add an emoji of your choice. b) This tag will now show up in the bottom left corner. Right-click on it, and assign a color to it. Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below. <img src="./supplementary-files/zotero_sups/zotero_emojis.png" class="img-fluid" alt="Zotero-Emojies"></p></li>
+</ol>
+</section>
+<section id="add-ons" class="level2">
+<h2 class="anchored" data-anchor-id="add-ons">Add-Ons</h2>
+<p>Add-ons are small programs that extend the functionality of Zotero widely. Here is a <a href="https://www.zotero.org/support/plugins">list</a></p>
+<ol type="1">
+<li><p><strong>Zotfile</strong> for data storage: The free cloud-storage will be filled up rather quickly. However, if you want to work on your library from different computers, it can be really handy to have it stored in the cloud. The most convenient way is to upgrade your account, for $20 a year, you get 2GB of storage. See <a href="https://www.zotero.org/settings/storage?ref=usb">here</a> for more info. I opted for a different solution and use a OneDrive folder to store my Zotero library. Setting up requires some steps:</p>
+<ol type="a">
+<li><p>Create a folder in a directory where you want your files to be stored.</p></li>
+<li><p>Download and install the<a href="http://zotfile.com/">Zotfile add-on</a>.</p></li>
+<li><p>In Zotero settings, go to <code>Sync</code> and uncheck <code>Sync attachment files in My Library</code></p></li>
+<li><p>Click on <code>Tool</code> and open Zotfile preferences. The <code>Source Folder for Attaching New Files</code> should typically be your download folder<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Below, set the Location of Files to <code>Custom Folder</code> and select the folder you created in 1a. If you leave the <code>Use subfolder defined by</code> unchecked, all files will be stored in the folder you created in 1a. If you check it, you can specify subfolders based on e.g.&nbsp;author, year, etc.<br>
+Here is what I use: <img src="./supplementary-files/zotero_sups/zotero_prefs.png" class="img-fluid" alt="Zotfile Settings"> And how it looks: <img src="./supplementary-files/zotero_sups/folder_structure.png" class="img-fluid" alt="Zotfile Folder"></p></li>
+</ol>
+<ol start="5" type="a">
+<li><p>In Zotfile, <code>Advanced Settings</code>, check <code>Remove special characters (diacritics) from filename.</code></p></li>
+<li><p>In Zotero settings, go to Advanced &gt; Files and Folders and set <code>Linked Attachment Base Directory</code> to the folder you created in 1a. Repeat this on every computer you want to access the files from.</p></li>
+<li><p>Set the renaming rules in the Zotfile preferences. I use the following: <img src="./supplementary-files/zotero_sups/zotero_renaming.png" class="img-fluid" alt="Zotfile Renaming"></p></li>
+<li><p>In your <code>My Library</code> window, click the paper clip to sort on attachment column. Select all papers that have a file attached and right-click on them. Select <code>Rename and Move.</code> This will move and rename all files to the folder you specified in 1.a. You might want to store a safety copy of your Zotero library beforehand in case something goes wrong.</p></li>
+</ol>
+<p>Now, every newly created entry will automatically be stored in the specified way. Only when using drag and drop, it might not work and you have to manually selecet <code>rename and move</code> again.</p>
+<p><em>Note</em> that if you delete an item now, you will have to delete the pdf by right-clicking on the item and select “Show File.”</p></li>
+<li><p><a href="https://retorque.re/zotero-better-bibtex/"><strong>Better BibTex</strong></a> is great for creating citation keys and for exporting. This is my citation key settings: <img src="./supplementary-files/zotero_sups/biblatex.png" class="img-fluid" alt="Better BibTex"> To export it as a .bib file, right-click on <code>My Library</code> and select <code>Export Library</code>. Select <code>Better BibLaTex</code>, uncheck abbreviated journal articles and check <code>keep updated</code>. I usually store this file in the directory where I am writing my paper.</p></li>
+</ol>
+<p>Other useful add-ons:</p>
+<ol start="3" type="1">
+<li><p><strong>Night for Zotero</strong>: I use this to change the color scheme of Zotero.</p></li>
+<li><p><strong>Inciteful Zotero Plugin</strong>: This can help with finding new papers that are similar to a selected one.</p></li>
+<li><p><strong>Zotero OCR</strong>: This Zotero plugin adds Optical Character Recognition to Zotero. So you will always be able to search for / highlight text in your PDFs.</p></li>
+<li><p><a href="https://github.com/wshanks/Zutilo"><strong>Zutilo</strong></a>: An add on that is not so important to my workflow, but sometimes it is handy to copy paste multiple tags.</p></li>
+</ol>
+<p>A last nice thing to know is that you can drag and drop multiple files into Zotero and it will very accurately create the reference. You can also select multiple items and drag them to a tag in the bottom left corner to assign them all the same tag.</p>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This only specifies which folder opens when you right-click on a Zotero reference and select <code>Add attachment from source folder.</code> I don’t use this ever.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
