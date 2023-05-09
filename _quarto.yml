@@ -20,7 +20,7 @@ website:
       - href: zotero.qmd
         text: Zotero Workflow
       - href: collectionofcollections.qmd
-      - text: Collections
+        text: Collections
 
   sidebar:
     style: docked

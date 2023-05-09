@@ -6,6 +6,12 @@ title: "Working with R in VS-Code"
 <!-- 
 Check this [website](https://cran.r-project.org/web/packages/rUM/vignettes/O1_make_research_project.html) to create quarto setup files 
 
+also check this 
+https://arinbasu.medium.com/why-quarto-with-vscode-is-a-great-data-science-tool-f0a259d28702
+
+and the YAML guide
+https://cran.r-project.org/web/packages/ymlthis/vignettes/yaml-fieldguide.html
+
 install radian using python
 
 set up path in the settings
