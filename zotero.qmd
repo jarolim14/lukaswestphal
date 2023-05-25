@@ -36,9 +36,9 @@ I opted for a different solution and use a OneDrive folder to store my Zotero li
 
     d) Click on `Tool` and open Zotfile preferences. The `Source Folder for Attaching New Files` should typically be your download folder[^1]. Below, set the Location of Files to `Custom Folder` and select the folder you created in 1a. If you leave the `Use subfolder defined by` unchecked, all files will be stored in the folder you created in 1a. If you check it, you can specify subfolders based on e.g. author, year, etc. \
     Here is what I use:
-    ![Zotfile Settings](/supplementary-files/zotero_sups/zotero_prefs.png)
+    ![Zotfile Settings](/supplementary-files/images/zotero_sups/zotero_prefs.png)
     And how it looks:
-    ![Zotfile Folder](/supplementary-files/zotero_sups/folder_structure.png)
+    ![Zotfile Folder](/supplementary-files/images/zotero_sups/folder_structure.png)
 
 
     [^1]: This only specifies which folder opens when you right-click on a Zotero reference and select `Add attachment from source folder.` I don't use this ever.
@@ -48,7 +48,7 @@ I opted for a different solution and use a OneDrive folder to store my Zotero li
     f) In Zotero settings, go to Advanced > Files and Folders and set `Linked Attachment Base Directory` to the folder you created in 1a. Repeat this on every computer you want to access the files from. 
 
     g) Set the renaming rules in the Zotfile preferences. I use the following:
-    ![Zotfile Renaming](/supplementary-files/zotero_sups/zotero_renaming.png)
+    ![Zotfile Renaming](/supplementary-files/images/zotero_sups/zotero_renaming.png)
 
     h) In your `My Library` window, click the paper clip to sort on attachment column. Select all papers that have a file attached and right-click on them. Select `Rename and Move.` This will move and rename all files to the folder you specified in 1.a. You might want to store a safety copy of your Zotero library beforehand in case something goes wrong.
 
@@ -57,7 +57,7 @@ I opted for a different solution and use a OneDrive folder to store my Zotero li
     *Note* that if you delete an item now, you will have to delete the pdf by right-clicking on the item and select "Show File."
 
 2. [**Better BibTex**](https://retorque.re/zotero-better-bibtex/) is great for creating citation keys and for exporting. This is my citation key settings:
-![Better BibTex](/supplementary-files/zotero_sups/biblatex.png)
+![Better BibTex](/supplementary-files/images/zotero_sups/biblatex.png)
 To export it as a .bib file, right-click on `My Library` and select `Export Library`. Select `Better BibLaTex`, uncheck abbreviated journal articles and check `keep updated`. I usually store this file in the directory where I am writing my paper.
 
 
