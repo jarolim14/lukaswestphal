@@ -15,7 +15,9 @@ I store my entire collection of articles and books in a single Zotero library. I
 
 2. In the General Settings -> Miscellaneous, untick the box 'Automatically tag items with keywords and subject headings'. I find this clutters the tags which I frequently use to categorize my articles. I try to keep them clean. 
 
-3. To assign different attributes to some paper, I use emojis as tags and then assign a color to them. The way you do it is a) Click on a paper you have not read yet. In the right panel, click on `Tags` and add an emoji of your choice. b) This tag will now show up in the bottom left corner. Right-click on it, and assign a color to it. Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below.
+3. To assign different attributes to some paper, I use emojis as tags and then assign a color to them. The way you do it is \
+a) Click on a paper you have not read yet. In the right panel, click on `Tags` and add an emoji of your choice. \
+b) This tag will now show up in the bottom left corner. Right-click on it, and assign a color to it. Now the emoji will always show in front of the title. For example, I use ⏳ to indicate an unread article. See below.
 ![Zotero-Emojies](/supplementary-files/zotero_sups/zotero_emojis.png)
 
 ## Add-Ons

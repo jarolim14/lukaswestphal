@@ -7,4 +7,7 @@ Hello World!
 I am a PhD Student in Copenhagen and just wanted to build a website to build a website. I picture it to be a repository that stores all the handy little apps, workflows, tricks and tricks that I use in my daily work. It might also turn into something where I write about things, my interests mainly lie within psychology, data science, and politics. 
 
 
-<!-- To learn more about Quarto websites visit <https://quarto.org/docs/websites>. -->
+<!--
+Here are my previous publications:
+
+ To learn more about Quarto websites visit <https://quarto.org/docs/websites>. -->

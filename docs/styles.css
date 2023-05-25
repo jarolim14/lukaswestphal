@@ -1,1 +1,18 @@
 /* css styles */
+
+body {
+  /* use anonymous pro font from google fonts */
+  font-family: "Anonymous Pro", monospace;
+  /* set background color */
+  background-color: #292a2b;
+  /* set text color */
+  color: #5c92d1;
+  /* set font size */
+  font-size: 20px;
+  /* set line height */
+  line-height: 1.5;
+  /* set margin */
+  margin: 0;
+  /* set padding */
+  padding: 0;
+}

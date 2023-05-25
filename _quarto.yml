@@ -9,8 +9,6 @@ website:
   title: "lukas westphal"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: blog.qmd
         text: Blog
       - href: macbook-setup.qmd
@@ -20,7 +18,7 @@ website:
       - href: zotero.qmd
         text: Zotero Workflow
       - href: collectionofcollections.qmd
-      - text: Collections
+        text: Collections
 
   sidebar:
     style: docked

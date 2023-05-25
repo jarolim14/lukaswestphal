@@ -2,6 +2,8 @@
 title: "Collections"
 ---
 
+This page contains a collection of resources that I find useful. It is a work in progress and will be updated.
+
 <!-- find a good structure with subheadings.
 
 ## Coding and method sources
@@ -18,5 +20,5 @@ Podcasts
 Videos or documentaries
  -->
 
-1. Computational Social Science by Gesis [Repo](https://github.com/gesiscss/awesome-computational-social-science)
+1. Computational Social Science by Gesis - [GitHub Repo](https://github.com/gesiscss/awesome-computational-social-science)
 
