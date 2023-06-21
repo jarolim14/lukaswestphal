@@ -18,6 +18,9 @@ This page contains a collection of resources that I find useful. It is a work in
 Podcasts
 
 Videos or documentaries
+
+# work with quarto! 
+https://mindfulmodeler.substack.com/p/simplify-your-writing-process-with
  -->
 
 1. Computational Social Science by Gesis - [GitHub Repo](https://github.com/gesiscss/awesome-computational-social-science)
