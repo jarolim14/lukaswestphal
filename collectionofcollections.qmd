@@ -21,6 +21,9 @@ Videos or documentaries
 
 # work with quarto! 
 https://mindfulmodeler.substack.com/p/simplify-your-writing-process-with
+
+# Structural equation modeling
+https://psu-psychology.github.io/psy-597-sem-sp2019/
  -->
 
 1. Computational Social Science by Gesis - [GitHub Repo](https://github.com/gesiscss/awesome-computational-social-science)
