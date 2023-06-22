@@ -2,7 +2,10 @@
 title: "MacBook Setup"
 ---
 
-<!-- add github copilot and free student access -->
+<!-- add github copilot and free student access 
+add safari section; add ons and include developer menu item and allow safari systyem wide acces (sys pref  > privacy security > full disk access > add safari)
+else local html cannot be opend in safari
+-->
 
 
 Working with a new computer can be great fun. However, I repeatedly forget my favorite programs and settings. 
