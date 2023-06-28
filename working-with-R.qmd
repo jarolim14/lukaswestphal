@@ -4,6 +4,10 @@ title: "Working with R in VS-Code"
 
 # WIP
 <!-- 
+
+WORKING WITH QUARTO:
+https://cran.r-project.org/web//packages/rUM/vignettes/O1_make_research_project.html
+
 Check this [website](https://cran.r-project.org/web/packages/rUM/vignettes/O1_make_research_project.html) to create quarto setup files 
 
 also check this 
