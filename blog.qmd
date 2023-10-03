@@ -12,6 +12,9 @@ To Do:
 - [] Add Zotero instructions. automatic export using betterbib, storage of files in clouds, etc.
 https://guides.lib.berkeley.edu/zotero/zotfile
 
+
+check this 
+https://twitter.com/kate_manne/status/1641516193222901760?s=20
 -->
 
 <!-- 

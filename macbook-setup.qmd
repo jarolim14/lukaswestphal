@@ -2,6 +2,9 @@
 title: "MacBook Setup"
 ---
 
+<!-- add github copilot and free student access -->
+
+
 Working with a new computer can be great fun. However, I repeatedly forget my favorite programs and settings. 
 Therefore, I built this little thing to help out my future self and maybe even someone else.
 I will start with the most important settings on a new MacBook.

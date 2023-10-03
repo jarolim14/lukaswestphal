@@ -1,0 +1,22 @@
+---
+title: "Collections"
+---
+
+<!-- find a good structure with subheadings.
+
+## Coding and method sources
+1. Gesis list
+2. Arthur Spirling, Political Science https://github.com/ArthurSpirling
+3.
+
+## Blogs
+1. Eiko Fried's [Blog](https://eikofried.com/)
+2. Stephan Schleim https://scilogs.spektrum.de/menschen-bilder/
+
+Podcasts
+
+Videos or documentaries
+ -->
+
+1. Computational Social Science by Gesis [Repo](https://github.com/gesiscss/awesome-computational-social-science)
+

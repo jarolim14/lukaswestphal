@@ -13,28 +13,32 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
   "workbench.colorTheme": "Just Black",
   "workbench.iconTheme": "vscode-icons",
   "editor.fontLigatures": true,
-  "terminal.external.osxExec": "Terminal.app",
-  "terminal.integrated.fontSize": 18,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.3,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
   "editor.fontFamily": "Anonymous Pro",
   "files.autoSave": "off",
   "markdown.preview.fontSize": 24,
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "editor.detectIndentation": true,
   "editor.minimap.enabled": false,
-
+  "editor.lineNumbers": "on",
   "git.autofetch": true,
   "editor.lineHeight": 0,
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "vsicons.dontShowNewVersionMessage": true,
   "extensions.ignoreRecommendations": true,
   "security.workspace.trust.untrustedFiles": "open",
   "fontshortcuts.defaultFontSize": 16,
   "fontshortcuts.defaultTerminalFontSize": 12,
 
-  "quarto.mathjax.theme": "dark",
+  "quarto.mathjax.theme": "light",
   "quarto.assist.updateMode": "live",
   "files.associations": {
     "*.rmd": "markdown"
@@ -67,16 +71,51 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "diffEditor.ignoreTrimWhitespace": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "editor.rulers": [80],
   "workbench.colorCustomizations": {
-    "terminal.foreground": "#00ff00",
-    "terminal.background": "#000000"
+    "terminal.background": "#131212",
+    "terminal.foreground": "#6bb8e6",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBrightBlack": "#414141",
+    "terminal.ansiBlue": "#bceafa",
+    "terminal.ansiBrightBlue": "#77dcff",
+    "terminal.ansiCyan": "#a3e9d4",
+    "terminal.ansiBrightCyan": "#a3e9d5",
+    "terminal.ansiGreen": "#68f400",
+    "terminal.ansiBrightGreen": "#dcf152",
+    "terminal.ansiMagenta": "#f58a8d",
+    "terminal.ansiBrightMagenta": "#ffb4b8",
+    "terminal.ansiRed": "#ff4c41",
+    "terminal.ansiBrightRed": "#ff7c77",
+    "terminal.ansiWhite": "#ffffff",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiYellow": "#ffe100",
+    "terminal.ansiBrightYellow": "#fff68b",
+    "editorLineNumber.foreground": "#0c6c09",
+    "editorLineNumber.activeForeground": "#84c67e",
+    "editorRuler.foreground": "#39e2fc49",
+    "editorGutter.background": "#000000",
+    "editor.foreground": "#ffffffbb",
+    "editorGroup.border": "#84c67e",
+    "editorIndentGuide.activeBackground": "#84c67e",
+    "editorIndentGuide.background": "#0c6c09",
+    "window.activeBorder": "#0c6c09",
+    "window.inactiveBorder": "#0c6c09a4",
+    "sideBar.border": "#0c6c09",
+    "notebook.cellBorderColor": "#0c6c099b",
+    "notebook.cellEditorBackground": "#000000",
+    "notebook.focusedCellBorder": "#0c6c09",
+    "notebook.selectedCellBorder": "#0c6c09",
+    "notebook.cellHoverBackground": "#7a78784a",
+    "notebook.editorBackground": "#4e4a4a37",
+    "notebook.outputContainerBorderColor": "#0c6c099b",
+    "gitDecoration.ignoredResourceForeground": "#bdb6b6ce"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -93,7 +132,7 @@
         "scope": ["comment", "comment.block"],
         "settings": {
           "fontStyle": "italic",
-          "foreground": "#ff1493"
+          "foreground": "#a381a3"
         }
       },
       {
@@ -111,7 +150,7 @@
         "scope": ["comment", "comment.block"],
         "settings": {
           "fontStyle": "italic",
-          "foreground": "#ff1493"
+          "foreground": "#a381a3"
         }
       },
       {
@@ -129,7 +168,7 @@
         "scope": ["comment", "comment.block"],
         "settings": {
           "fontStyle": "italic",
-          "foreground": "#ff1493"
+          "foreground": "#a381a3"
         }
       },
       {
@@ -141,13 +180,6 @@
         ],
         "settings": {
           "fontStyle": ""
-        }
-      },
-      {
-        "scope": ["comment", "comment.block"],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#ff1493"
         }
       },
       {
@@ -183,15 +215,62 @@
     "\"/Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library/"
   ],
   "r.lsp.debug": true,
-  "cSpell.allowCompoundWords": true,
-  "cSpell.enableFiletypes": ["qmd", ".qmd"],
-  "cSpell.checkOnlyEnabledFileTypes": false,
-  "cSpell.userWords": ["Pharmacoepidemiology"],
-  "cSpell.language": "en,en-US",
-  "errorLens.enabled": true,
+  "errorLens.enabled": false,
   "errorLens.enabledDiagnosticLevels": ["warning", "error"],
   "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
   "git.confirmSync": false,
   "explorer.confirmDelete": false,
-  "fontshortcuts.step": 2
+  "fontshortcuts.step": 2,
+
+  "Lua.workspace.supportScheme": ["file", "default"],
+  "grammarly.files.include": [
+    "**/README.md",
+    "**/readme.md",
+    "**/*.txt",
+    "**/*.qmd",
+    "*.qmd"
+  ],
+  "notebook.showFoldingControls": "always",
+  "notebook.output.textLineLimit": 100,
+  "quarto.path": " /usr/local/Caskroom/quarto/1.2.313",
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.organizeImports": true
+    },
+    "editor.formatOnType": true
+  },
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "errorLens.delay": 50000,
+  "notebook.lineNumbers": "on",
+  "explorer.confirmDragAndDrop": false,
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "grammarly.config.documentDomain": "academic",
+  "grammarly.config.suggestions.OxfordComma": true,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "quarto": true,
+    "*": true
+  },
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "path-intellisense.extensionOnImport": true,
+  "path-intellisense.showHiddenFiles": true,
+  "code-runner.executorMap": {
+    "python": "~/Projects/PythonPhdVenv/bin/python"
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.showExecutionMessage": false
 }
