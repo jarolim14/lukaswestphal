@@ -5,7 +5,7 @@ Throughout my academic work, I arrived at a workflow for reviewing literature th
 
 I use [Zotero](https://www.zotero.org/) as a reference manager. I strongly recommend using a free and open-source reference manager to keep your libraries accessible regardless of your subscriptions. Another good option is [jabref](https://www.jabref.org/), however, I think Zotero is more user-friendly and has a bigger community of contributors. I would try to refrain from using Mendeley since they are part of Elsevier, a big publisher with rather questionable business practices. Skimming its [wikipedia](https://en.wikipedia.org/wiki/Elsevier) already gives you an idea, this [guardian article](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science) is a longer read but worth it.
 
-Already the default Zotero application is pretty good, it is of course possible to install add-ons to your browser and Word to integrate it with your literature search and writing process. However, to get the most out of the program, some helpful settings and add-ons can be recommended. 
+Already the default Zotero application is pretty good, it is of course possible to install add-ons to your browser and Word to integrate it with your literature search and writing process. However, to get the most out of the program, some helpful settings and add-ons can be recommended. Another great resource for Zotero guidance in the [Zotero documentation from the Berkeley Library](https://guides.lib.berkeley.edu/zotero).
 
 ## General Set up
 
@@ -26,7 +26,7 @@ Add-ons are small programs that extend the functionality of Zotero widely. Here 
 
 
 1. **Zotfile** for data storage: The free cloud-storage will be filled up rather quickly. However, if you want to work on your library from different computers, it can be really handy to have it stored in the cloud. The most convenient way is to upgrade your account, for $20 a year, you get 2GB of storage. See [here](https://www.zotero.org/settings/storage?ref=usb) for more info. 
-I opted for a different solution and use a OneDrive folder to store my Zotero library. Setting up requires some steps:
+I opted for a different solution and use a OneDrive folder to store my Zotero library. Setting up requires some steps, also follow those when transferring a library. :
 
     a) Create a folder in a directory where you want your files to be stored.
 
