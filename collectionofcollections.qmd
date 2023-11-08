@@ -6,6 +6,8 @@ This page contains a collection of resources that I find useful. It is a work in
 
 <!-- find a good structure with subheadings.
 
+
+
 ## Coding and method sources
 1. Gesis list
 2. Arthur Spirling, Political Science https://github.com/ArthurSpirling
