@@ -78,6 +78,11 @@ I don't use the Dock at all. It takes up screen space, and I can use Alfred to l
 
 - Move to the right 
 
+### Mission Control
+
+- Check 'Automatically rearrange Spaces based on most recent use'
+- Uncheck 'Displays have separate Spaces'
+
 
 # Basics
 
